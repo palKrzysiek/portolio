@@ -1,0 +1,18 @@
+.about-me{
+	img{
+		width: 30%;
+		float:right;
+		padding: 4%;
+	}
+	.container{
+		height: 70%;
+	}
+	.photo{
+		background-image: url("/img/laptop.jpg");
+		width: 100vw;
+		height: 30%;
+		background-position: center;
+		background-size:contain;
+		background-repeat: no-repeat;
+	}
+}

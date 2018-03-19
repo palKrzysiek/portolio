@@ -1,0 +1,20 @@
+.front-section{
+	background-image: url(/img/rain.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	
+	h1{
+		text-align: center;
+		color: $accent-color;
+		margin: 0 auto;
+		text-shadow: 1px 2px 1px black;
+		span{
+			color: $light-color;
+			text-align: center;
+			display: block;
+		}
+	}
+}

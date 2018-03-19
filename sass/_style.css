@@ -1,0 +1,121 @@
+/*----------------------------------
+-------------Variables--------------
+------------------------------------*/
+/*----------------------------------
+------------Global--------------
+------------------------------------*/
+/* line 1, sass/_global.scss */
+html {
+  font-size: 20px; }
+
+/* line 4, sass/_global.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box; }
+
+/* line 10, sass/_global.scss */
+section {
+  width: 100vw;
+  height: 100vh; }
+  /* line 13, sass/_global.scss */
+  section h2 {
+    padding: 5% 0; }
+
+/* line 17, sass/_global.scss */
+.container {
+  padding: 1% 10%; }
+
+/*----------------------------------
+--------------Header----------------
+------------------------------------*/
+/* line 1, sass/_header.scss */
+header {
+  width: 7vw;
+  height: 100vh;
+  position: fixed;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center; }
+
+/* line 10, sass/_header.scss */
+.menu {
+  bottom: 0;
+  position: absolute; }
+  /* line 13, sass/_header.scss */
+  .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0; }
+    /* line 18, sass/_header.scss */
+    .menu a i {
+      color: #efeee6;
+      line-height: 1.1rem;
+      font-size: 1rem;
+      display: block;
+      margin: 30% auto;
+      text-align: center; }
+    /* line 26, sass/_header.scss */
+    .menu a .active {
+      color: #e76710; }
+
+/*----------------------------------
+------------Front-section--------------
+------------------------------------*/
+/* line 1, sass/_front-section.scss */
+.front-section {
+  background-image: url(/img/rain.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  /* line 9, sass/_front-section.scss */
+  .front-section h1 {
+    text-align: center;
+    color: #e76710;
+    margin: 0 auto;
+    text-shadow: 1px 2px 1px black; }
+    /* line 14, sass/_front-section.scss */
+    .front-section h1 span {
+      color: #efeee6;
+      text-align: center;
+      display: block; }
+
+/*----------------------------------
+------------About-me--------------
+------------------------------------*/
+/* line 2, sass/_about-me.scss */
+.about-me img {
+  width: 30%;
+  float: right;
+  padding: 4%; }
+
+/* line 7, sass/_about-me.scss */
+.about-me .container {
+  height: 70%; }
+
+/* line 10, sass/_about-me.scss */
+.about-me .photo {
+  background-image: url("/img/laptop.jpg");
+  width: 100vw;
+  height: 30%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+/*----------------------------------
+-------------my-skills----------------
+------------------------------------*/
+/*----------------------------------
+-------------Project----------------
+------------------------------------*/
+/*----------------------------------
+-------------Contact----------------
+------------------------------------*/
+/*----------------------------------
+--------------Footer----------------
+------------------------------------*/
+
+/*# sourceMappingURL=_style.css.map */
