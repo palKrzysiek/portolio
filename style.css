@@ -80,7 +80,7 @@ header {
 .about-me .container {
   height: 70%; }
 .about-me .photo {
-  background-image: url("/img/laptop.jpg");
+  background-image: url("img/laptop.jpg");
   width: 100vw;
   height: 30%;
   background-position: center;
