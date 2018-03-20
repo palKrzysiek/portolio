@@ -59,7 +59,7 @@ header {
 ------------Front-section--------------
 ------------------------------------*/
 .front-section {
-  background-image: url(img/rain.jpg);
+  background-image: url("img/rain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

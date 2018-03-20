@@ -71,7 +71,7 @@ header {
 ------------------------------------*/
 /* line 1, _front-section.scss */
 .front-section {
-  background-image: url(img/rain.jpg);
+  background-image: url("img/rain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
