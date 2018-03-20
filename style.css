@@ -17,21 +17,26 @@ section {
   width: 100vw;
   height: 100vh; }
   section h2 {
-    padding: 5% 0; }
+    padding: 5% 0;
+    font-weight: 700; }
 
 .container {
   padding: 1% 10%; }
+
+.italic {
+  font-style: italic; }
 
 /*----------------------------------
 --------------Header----------------
 ------------------------------------*/
 header {
-  width: 7vw;
+  width: 8vw;
   height: 100vh;
   position: fixed;
   padding-bottom: 0;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  z-index: 9999; }
 
 .menu {
   bottom: 0;
@@ -41,7 +46,7 @@ header {
     text-transform: uppercase;
     font-size: 0; }
     .menu a i {
-      color: #efeee6;
+      color: black;
       line-height: 1.1rem;
       font-size: 1rem;
       display: block;
@@ -54,7 +59,7 @@ header {
 ------------Front-section--------------
 ------------------------------------*/
 .front-section {
-  background-image: url("img/rain.jpg");
+  background-image: url(/img/rain.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,29 +78,64 @@ header {
 /*----------------------------------
 ------------About-me--------------
 ------------------------------------*/
-.about-me img {
-  width: 30%;
-  float: right;
-  padding: 4%; }
-.about-me .container {
-  height: 70%; }
-.about-me .photo {
-  background-image: url("img/laptop.jpg");
-  width: 100vw;
-  height: 30%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.about-me {
+  position: relative; }
+  .about-me .container {
+    height: 70%; }
+    .about-me .container img {
+      width: 30%;
+      float: right;
+      padding: 4%; }
+
+.photo {
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
 
 /*----------------------------------
 -------------my-skills----------------
 ------------------------------------*/
+.my-skills .box {
+  padding: 2% 0; }
+  .my-skills .box p {
+    text-transform: uppercase;
+    padding: 2% 0; }
+
 /*----------------------------------
 -------------Project----------------
 ------------------------------------*/
+.card {
+  width: 70vw;
+  height: 70vw;
+  max-height: 40%;
+  border: 1px solid black;
+  margin-top: 10%;
+  margin-left: 5%;
+  border-radius: 5%; }
+  .card .side-img {
+    width: 80%;
+    margin: 10%;
+    height: 80%;
+    border: 1px solid black; }
+    .card .side-img img {
+      display: block;
+      margin: 10%;
+      width: 80%; }
+
 /*----------------------------------
 -------------Contact----------------
 ------------------------------------*/
+.contact p, .contact a {
+  text-align: center;
+  margin-top: 30%;
+  text-decoration: none;
+  color: black;
+  display: block; }
+  .contact p span, .contact a span {
+    text-align: center; }
+  .contact p i, .contact a i {
+    font-size: 80px; }
+
 /*----------------------------------
 --------------Footer----------------
 ------------------------------------*/

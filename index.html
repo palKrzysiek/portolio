@@ -4,10 +4,10 @@
 				<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<link rel="stylesheet" href="style.css">
-				<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-				<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+				
+			<title>Portfolio</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 			<a href=""><i class="fas fa-home active"></i></a>
 			<a href="">O mnie<i class="fas fa-male"></i></a>
 			<a href="">Umiejetności<i class="fas fa-flask"></i></a>
-			<a href="">Projekty<i class="fas fa-flask"></i></a>
+			<a href="">Projekty<i class="fab fa-github"></i></a>
 			<a href="">Kontakt<i class="fas fa-address-card"></i></a>
 		</nav>
 	</header>
@@ -33,29 +33,55 @@
 	Staram się zostać frontend developerem. Przez dłuższy czas poszukiwałem dobrego miejsca dla siebie. Budownictwo czy automatyka, nie okazały się nim, a praca na magazynie jest zdecydowanie poniżej moich możliwości i ambicji mimo dobrych zarobków. Los zbliżył mnie do frontendu w którym bezustannie się rozwijam i widzę w nim miejsce dla siebie. 
 			</p>
 			</div>
-			<div class="photo"></div>
+			<img class="photo" src="img/laptop.jpg" alt="">
 	</section>
 	<section class="my-skills container">
 		<h2>Moje umiejętności</h2>
-		<div><p>html</p></div>
-		<div><p>css</p></div>
-		<div><p>js</p></div>
-		<div><p>jq</p></div>
-		<div><p>sass</p></div>
-		<div><p>wordpress</p></div>
+		<div class="box">
+			<p>html</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+			</div>
+	</div>
+		<div class="box"><p>css</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+			</div>
+		</div>
+		<div class="box"><p>js</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+			</div>
+		</div>
+		<div class="box"><p>jq</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+			</div>
+			</div>
+		<div class="box"><p>sass</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+			</div>
+			</div>
+		<div class="box"><p>wordpress</p>
+			<div class="stars">
+				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+			</div>
+			</div>
+			<div>
+				<p class="italic">Więcej w przyszłości...</p>
+			</div>
 	</section>	
 	<section class="projects container">
 		<h2>Projekty</h2>
-		<div>github</div>
-		<div>github</div>
-		<div>github</div>
-		<div>github</div>
+		<div class="card"><div class="side-img"><a href="https://palkrzysiek.github.io/Draw-a-person/"><img src="img/screen1.png" alt=""></a></div></div>
+		<div class="card"><div class="side-img"><a href="https://palkrzysiek.github.io/PSDtoHTML/"><img src="img/screen2.png" alt=""></a></div></div>
 	</section>
 	<section class="contact container">
 	<h2>Kontakt:</h2>
-		<p>email</p>
-		<p>linkedin</p>
-		<p>github</p>
+		<p><i class="fas fa-envelope"></i><span>pal.krzysik@gmial.com</span></p>
+		<a href="https://www.facebook.com/krzysztof.palusinski.1"><i class="fab fa-facebook-square"></i></a>
+		<a href="https://github.com/palKrzysiek"><i class="fab fa-github-square"></i></a>
 	</section>
 	<footer class="container">copyright</footer>
 </body>
