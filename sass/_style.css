@@ -4,38 +4,38 @@
 /*----------------------------------
 ------------Global--------------
 ------------------------------------*/
-/* line 1, _global.scss */
+/* line 1, sass/_global.scss */
 html {
   font-size: 20px; }
 
-/* line 4, _global.scss */
+/* line 4, sass/_global.scss */
 * {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
   box-sizing: border-box; }
 
-/* line 10, _global.scss */
+/* line 10, sass/_global.scss */
 section {
   width: 100vw;
   height: 100vh; }
-  /* line 13, _global.scss */
+  /* line 13, sass/_global.scss */
   section h2 {
     padding: 5% 0;
     font-weight: 700; }
 
-/* line 18, _global.scss */
+/* line 18, sass/_global.scss */
 .container {
   padding: 1% 10%; }
 
-/* line 22, _global.scss */
+/* line 22, sass/_global.scss */
 .italic {
   font-style: italic; }
 
 /*----------------------------------
 --------------Header----------------
 ------------------------------------*/
-/* line 1, _header.scss */
+/* line 1, sass/_header.scss */
 header {
   width: 8vw;
   height: 100vh;
@@ -45,16 +45,16 @@ header {
   justify-content: center;
   z-index: 9999; }
 
-/* line 11, _header.scss */
+/* line 11, sass/_header.scss */
 .menu {
   bottom: 0;
   position: absolute; }
-  /* line 14, _header.scss */
+  /* line 14, sass/_header.scss */
   .menu a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0; }
-    /* line 18, _header.scss */
+    /* line 18, sass/_header.scss */
     .menu a i {
       color: black;
       line-height: 1.1rem;
@@ -62,14 +62,14 @@ header {
       display: block;
       margin: 30% auto;
       text-align: center; }
-    /* line 27, _header.scss */
+    /* line 27, sass/_header.scss */
     .menu a .active {
       color: #e76710; }
 
 /*----------------------------------
 ------------Front-section--------------
 ------------------------------------*/
-/* line 1, _front-section.scss */
+/* line 1, sass/_front-section.scss */
 .front-section {
   background-image: url("img/rain.jpg");
   background-position: center;
@@ -77,13 +77,13 @@ header {
   background-size: cover;
   display: flex;
   align-items: center; }
-  /* line 9, _front-section.scss */
+  /* line 9, sass/_front-section.scss */
   .front-section h1 {
     text-align: center;
     color: #e76710;
     margin: 0 auto;
     text-shadow: 1px 2px 1px black; }
-    /* line 14, _front-section.scss */
+    /* line 14, sass/_front-section.scss */
     .front-section h1 span {
       color: #efeee6;
       text-align: center;
@@ -92,19 +92,19 @@ header {
 /*----------------------------------
 ------------About-me--------------
 ------------------------------------*/
-/* line 1, _about-me.scss */
+/* line 1, sass/_about-me.scss */
 .about-me {
   position: relative; }
-  /* line 3, _about-me.scss */
+  /* line 3, sass/_about-me.scss */
   .about-me .container {
     height: 70%; }
-    /* line 5, _about-me.scss */
+    /* line 5, sass/_about-me.scss */
     .about-me .container img {
       width: 30%;
       float: right;
       padding: 4%; }
 
-/* line 13, _about-me.scss */
+/* line 13, sass/_about-me.scss */
 .photo {
   width: 100%;
   position: absolute;
@@ -113,10 +113,10 @@ header {
 /*----------------------------------
 -------------my-skills----------------
 ------------------------------------*/
-/* line 2, _skills.scss */
+/* line 2, sass/_skills.scss */
 .my-skills .box {
   padding: 2% 0; }
-  /* line 4, _skills.scss */
+  /* line 4, sass/_skills.scss */
   .my-skills .box p {
     text-transform: uppercase;
     padding: 2% 0; }
@@ -124,7 +124,7 @@ header {
 /*----------------------------------
 -------------Project----------------
 ------------------------------------*/
-/* line 1, _projects.scss */
+/* line 1, sass/_projects.scss */
 .card {
   width: 70vw;
   height: 70vw;
@@ -133,13 +133,13 @@ header {
   margin-top: 10%;
   margin-left: 5%;
   border-radius: 5%; }
-  /* line 9, _projects.scss */
+  /* line 9, sass/_projects.scss */
   .card .side-img {
     width: 80%;
     margin: 10%;
     height: 80%;
     border: 1px solid black; }
-    /* line 14, _projects.scss */
+    /* line 14, sass/_projects.scss */
     .card .side-img img {
       display: block;
       margin: 10%;
@@ -148,17 +148,17 @@ header {
 /*----------------------------------
 -------------Contact----------------
 ------------------------------------*/
-/* line 2, _contact.scss */
+/* line 2, sass/_contact.scss */
 .contact p, .contact a {
   text-align: center;
   margin-top: 30%;
   text-decoration: none;
   color: black;
   display: block; }
-  /* line 8, _contact.scss */
+  /* line 8, sass/_contact.scss */
   .contact p span, .contact a span {
     text-align: center; }
-  /* line 11, _contact.scss */
+  /* line 11, sass/_contact.scss */
   .contact p i, .contact a i {
     font-size: 80px; }
 
