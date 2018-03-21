@@ -47,13 +47,27 @@ header {
     font-size: 0; }
     .menu a i {
       color: black;
-      line-height: 1.1rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
       display: block;
       margin: 30% auto;
-      text-align: center; }
+      text-align: center;
+      text-shadow: 0 0 1px #fcfdff; }
+      @media only screen and (min-width: 600px) {
+        .menu a i {
+          font-size: 2rem;
+          margin: 40%  auto; } }
+      @media only screen and (min-width: 1200px) {
+        .menu a i {
+          font-size: 2.8rem;
+          text-shadow: 0 0 0; } }
+      @media only screen and (min-width: 1800px) {
+        .menu a i {
+          font-size: 4rem;
+          text-shadow: 0 0 0;
+          margin: 70%  auto; } }
     .menu a .active {
-      color: #e76710; }
+      color: #e76710;
+      text-shadow: 0 0 2px #515154; }
 
 /*----------------------------------
 ------------Front-section--------------
@@ -70,6 +84,13 @@ header {
     color: #e76710;
     margin: 0 auto;
     text-shadow: 1px 2px 1px black; }
+    @media only screen and (min-width: 900px) {
+      .front-section h1 {
+        font-size: 2rem; } }
+    @media only screen and (min-width: 1200px) {
+      .front-section h1 {
+        font-size: 3rem;
+        text-shadow: 1px 1px 3px black; } }
     .front-section h1 span {
       color: #efeee6;
       text-align: center;
@@ -82,28 +103,107 @@ header {
   position: relative; }
   .about-me .container {
     height: 70%; }
-    .about-me .container img {
-      width: 30%;
-      float: right;
-      padding: 4%; }
+    @media only screen and (min-width: 600px) {
+      .about-me .container div {
+        background-color: rgba(108, 119, 136, 0.95);
+        border-radius: 3%;
+        padding: 1% 10% 5%;
+        margin: 30% auto; }
+        .about-me .container div h2 {
+          text-align: center; } }
+    @media only screen and (min-width: 1200px) {
+      .about-me .container div {
+        width: 70%;
+        margin: 13% auto;
+        font-size: 1.3rem; } }
+    @media only screen and (min-width: 1800px) {
+      .about-me .container div {
+        width: 70%;
+        margin: 20% auto;
+        font-size: 2rem; } }
+  .about-me .background-image {
+    background-image: url("img/laptop.jpg");
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    @media only screen and (min-width: 600px) {
+      .about-me .background-image {
+        height: 84%;
+        width: 84%;
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        z-index: -1;
+        margin: auto; } }
 
-.photo {
-  width: 100%;
-  position: absolute;
-  bottom: 0; }
-
+/*.photo{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+	}*/
 /*----------------------------------
 -------------my-skills----------------
 ------------------------------------*/
-.my-skills .box {
-  padding: 2% 0; }
-  .my-skills .box p {
-    text-transform: uppercase;
+.my-skills {
+  height: 100vh; }
+  .my-skills .box {
     padding: 2% 0; }
+    .my-skills .box p {
+      text-transform: uppercase;
+      padding: 2% 0; }
+    .my-skills .box .stars {
+      border-bottom: 1px solid black;
+      padding: 0 0 6%; }
+      .my-skills .box .stars .fas {
+        text-shadow: 1px 1px 3px black;
+        color: gold; }
+      .my-skills .box .stars .far {
+        color: #6c7788; }
+  .my-skills .italic {
+    padding-top: 3%; }
+
+@media only screen and (min-width: 600px) {
+  .my-skills .box {
+    padding: 1% 0; }
+    .my-skills .box h2 {
+      padding: 0 2%; }
+    .my-skills .box .stars {
+      padding: 0 0 2%; } }
+@media only screen and (min-width: 900px) {
+  .my-skills {
+    text-align: center; }
+    .my-skills h2 {
+      padding: 2% 0; }
+    .my-skills .box p {
+      padding: 1% 0; }
+    .my-skills .box .stars {
+      border-bottom: none; } }
+@media only screen and (min-width: 1200px) {
+  .my-skills h2 {
+    padding: 1% 0; }
+  .my-skills .box {
+    padding: 0; }
+    .my-skills .box p {
+      padding: 1% 0; } }
+@media only screen and (min-width: 1800px) {
+  .my-skills {
+    font-size: 2rem; } }
 
 /*----------------------------------
 -------------Project----------------
 ------------------------------------*/
+.projects {
+  height: 100vh; }
+  .projects a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    text-align: right;
+    padding-top: 3%;
+    display: block; }
+
 .card {
   width: 70vw;
   height: 70vw;
@@ -116,7 +216,8 @@ header {
     width: 80%;
     margin: 10%;
     height: 80%;
-    border: 1px solid black; }
+    border: 1px solid black;
+    overflow: hidden; }
     .card .side-img img {
       display: block;
       margin: 10%;
@@ -125,19 +226,32 @@ header {
 /*----------------------------------
 -------------Contact----------------
 ------------------------------------*/
-.contact p, .contact a {
-  text-align: center;
-  margin-top: 30%;
-  text-decoration: none;
-  color: black;
-  display: block; }
-  .contact p span, .contact a span {
-    text-align: center; }
-  .contact p i, .contact a i {
-    font-size: 80px; }
+.contact {
+  height: 100vh; }
+  .contact p, .contact a {
+    text-align: center;
+    margin-top: 30%;
+    text-decoration: none;
+    color: #515154;
+    display: block; }
+    .contact p span, .contact a span {
+      text-align: center;
+      display: block; }
+    .contact p i, .contact a i {
+      font-size: 80px; }
+
+.fa-envelope {
+  transform: translateX(5px); }
 
 /*----------------------------------
 --------------Footer----------------
 ------------------------------------*/
+footer {
+  background-color: #6c7788;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 0.8rem; }
+  footer p {
+    padding: 3% 10%; }
 
 /*# sourceMappingURL=style.css.map */

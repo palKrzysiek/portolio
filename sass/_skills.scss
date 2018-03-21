@@ -1,11 +1,69 @@
-.my-skills{
+.my-skills{ 
+	height: 100vh; 
 	.box{
-		padding: 2% 0;
+		padding: 2% 0; 
 		p{
-		text-transform: uppercase;
-		padding: 2% 0;
+			text-transform: uppercase;
+			padding: 2% 0;
+ 
+		}
+		.stars{
+			border-bottom: 1px solid black;
+			padding: 0 0 6% ;
+			.fas{
+    			text-shadow: 1px 1px 3px black;	
+				color: gold;
+			}
+			.far{
+				color: $darken-main-color;
+			}
 		}
 
 	}
+	.italic{
+		padding-top: 3%;
+	}
 }
-	 
+	
+.my-skills{
+	@media only screen and (min-width: 600px){
+		.box{
+			padding: 1% 0; 
+			h2{
+				padding: 0 2%; 
+			} 
+			.stars{
+				padding: 0 0 2%; 
+			}
+		}
+	}
+	@media #{$m}{
+		text-align: center; 
+		h2{
+			padding: 2% 0 ;    
+			}
+		.box{  
+			p{
+				padding: 1% 0;
+			}
+			.stars{
+				border-bottom: none; 
+			}
+		}
+	}
+	@media #{$l}{
+		h2{
+			padding: 1% 0;       
+			}
+		.box{ 
+			padding: 0; 
+			
+			p{
+				padding: 1% 0;
+			}
+		}
+	}
+	@media #{$xl}{
+		font-size: 2rem; 
+	}
+}

@@ -1,5 +1,16 @@
-.card{
-	width: 70vw;
+.projects{
+	height: 100vh;
+	a{
+		text-decoration: none;
+		color: black;
+		font-style: italic;
+		text-align: right;   
+		padding-top: 3%;
+		display: block; 
+	}
+}
+.card{ 
+	width: 70vw; 
 	height: 70vw;
 	max-height: 40%;
 	border: 1px solid black;
@@ -11,10 +22,12 @@
 		margin: 10%;
 		height: 80%;
 		border: 1px solid black;
+		overflow: hidden; 
 		img{
 			display: block;
 			margin: 10%;
 			width: 80%;
+			
 			
 	}
 	}

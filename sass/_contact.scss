@@ -1,15 +1,18 @@
 .contact{
+	height: 100vh;   
 	p,a{
 		text-align: center;
 		margin-top: 30%;
 		text-decoration: none;
-		color: black;
+		color: $dark-color;
 		display: block;
 		span{
 			text-align: center;
+			display: block;
 		}
 		i{
 			font-size:  80px;
 		}
 	}
 }
+.fa-envelope{transform: translateX(5px);} 

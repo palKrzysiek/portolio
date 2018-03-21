@@ -16,16 +16,30 @@ header{
 		text-transform: uppercase;
 		font-size: 0;
 		i{
-			
-			color: black;
-			line-height: 1.1rem;
-			font-size: 1rem;
+			color: black; 
+			font-size: 1.2rem;  
 			display: block;
 			margin: 30% auto;
 			text-align: center;
+			text-shadow: 0 0 1px $white-color;
+			@media #{$s}{
+			 
+				font-size: 2rem;
+				margin: 40%  auto;   
+			};
+			@media #{$l}{
+				font-size: 2.8rem; 
+				text-shadow: 0 0 0 ;  
+			};
+			@media #{$xl}{ 
+				font-size: 4rem;
+				text-shadow: 0 0 0 ;  
+				margin: 70%  auto;  
+			};
 		} 
 		.active{
 			color: $accent-color;
+			text-shadow: 0 0 2px $dark-color;
 			}
 		}
 	} 
