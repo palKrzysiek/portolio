@@ -27,19 +27,53 @@ header{
 				font-size: 2rem;
 				margin: 40%  auto;   
 			};
-			@media #{$l}{
-				font-size: 2.8rem; 
-				text-shadow: 0 0 0 ;  
-			};
-			@media #{$xl}{ 
-				font-size: 4rem;
-				text-shadow: 0 0 0 ;  
-				margin: 70%  auto;  
-			};
 		} 
-		.active{
+		
+		}
+	.active{
 			color: $accent-color;
 			text-shadow: 0 0 2px $dark-color;
+			i{
+				color: $accent-color;
+				text-shadow: 0 0 2px $dark-color;
+			}
+			}
+	} 
+
+
+//min 900px
+header{
+	@media #{$m}{
+		width: 100vw;
+		height: auto;
+	}
+}
+.menu{
+	@media #{$m}{
+		bottom: auto;
+		top: 0;
+		width: 100vw;
+		display: flex;
+		text-align: center;
+		margin: 1% 0;
+		a{
+			font-size: 1.2rem;
+			color: $light-color;
+			margin:0 auto;
+			i{
+				display: inline-block;
+				margin: 0 0.2%;
+				font-size: 1.2rem;
+				color: $light-color;
 			}
 		}
-	} 
+	}
+	@media #{$xl}{
+		a{
+			font-size: 2.5rem;
+			i{
+				font-size: 2.5rem;
+			}
+		}
+	}
+}

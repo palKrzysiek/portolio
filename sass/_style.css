@@ -4,37 +4,46 @@
 /*----------------------------------
 ------------Global--------------
 ------------------------------------*/
+/* line 1, sass/_global.scss */
 html {
   font-size: 20px; }
 
+/* line 4, sass/_global.scss */
 body {
   overflow-x: hidden; }
 
+/* line 7, sass/_global.scss */
 * {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
   box-sizing: border-box; }
 
+/* line 13, sass/_global.scss */
 section {
   width: 100vw;
   height: 100vh; }
+  /* line 16, sass/_global.scss */
   section h2 {
     padding: 5% 0;
     font-weight: 700; }
 
+/* line 21, sass/_global.scss */
 .container {
   padding: 1% 10%; }
 
+/* line 25, sass/_global.scss */
 .italic {
   font-style: italic; }
 
+/* line 28, sass/_global.scss */
 .darken-bg {
   background-color: #efeee6; }
 
 /*----------------------------------
 --------------Header----------------
 ------------------------------------*/
+/* line 1, sass/_header.scss */
 header {
   width: 8vw;
   height: 100vh;
@@ -44,13 +53,16 @@ header {
   justify-content: center;
   z-index: 9999; }
 
+/* line 11, sass/_header.scss */
 .menu {
   bottom: 0;
   position: absolute; }
+  /* line 14, sass/_header.scss */
   .menu a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0; }
+    /* line 18, sass/_header.scss */
     .menu a i {
       color: black;
       font-size: 1.2rem;
@@ -59,22 +71,27 @@ header {
       text-align: center;
       text-shadow: 0 0 1px #fcfdff; }
       @media only screen and (min-width: 600px) {
+        /* line 18, sass/_header.scss */
         .menu a i {
           font-size: 2rem;
           margin: 40%  auto; } }
+  /* line 33, sass/_header.scss */
   .menu .active {
     color: #e76710;
     text-shadow: 0 0 2px #515154; }
+    /* line 36, sass/_header.scss */
     .menu .active i {
       color: #e76710;
       text-shadow: 0 0 2px #515154; }
 
 @media only screen and (min-width: 900px) {
+  /* line 45, sass/_header.scss */
   header {
     width: 100vw;
     height: auto; } }
 
 @media only screen and (min-width: 900px) {
+  /* line 51, sass/_header.scss */
   .menu {
     bottom: auto;
     top: 0;
@@ -82,24 +99,30 @@ header {
     display: flex;
     text-align: center;
     margin: 1% 0; }
+    /* line 59, sass/_header.scss */
     .menu a {
       font-size: 1.2rem;
       color: #efeee6;
       margin: 0 auto; }
+      /* line 63, sass/_header.scss */
       .menu a i {
         display: inline-block;
         margin: 0 0.2%;
         font-size: 1.2rem;
         color: #efeee6; } }
+
 @media only screen and (min-width: 1800px) {
+  /* line 72, sass/_header.scss */
   .menu a {
     font-size: 2.5rem; }
+    /* line 74, sass/_header.scss */
     .menu a i {
       font-size: 2.5rem; } }
 
 /*----------------------------------
 ------------Front-section--------------
 ------------------------------------*/
+/* line 1, sass/_front-section.scss */
 .front-section {
   background-image: url("img/rain.jpg");
   background-position: center;
@@ -107,21 +130,26 @@ header {
   background-size: cover;
   display: flex;
   align-items: center; }
+  /* line 9, sass/_front-section.scss */
   .front-section h1 {
     text-align: center;
     color: #e76710;
     margin: 0 auto;
     text-shadow: 1px 2px 1px black; }
     @media only screen and (min-width: 900px) {
+      /* line 9, sass/_front-section.scss */
       .front-section h1 {
         font-size: 2rem; } }
     @media only screen and (min-width: 1200px) {
+      /* line 9, sass/_front-section.scss */
       .front-section h1 {
         font-size: 3rem;
         text-shadow: 1px 1px 3px black; } }
     @media only screen and (min-width: 1800px) {
+      /* line 9, sass/_front-section.scss */
       .front-section h1 {
         font-size: 4rem; } }
+    /* line 24, sass/_front-section.scss */
     .front-section h1 span {
       color: #efeee6;
       text-align: center;
@@ -130,28 +158,35 @@ header {
 /*----------------------------------
 ------------About-me--------------
 ------------------------------------*/
+/* line 1, sass/_about-me.scss */
 .about-me {
   position: relative; }
+  /* line 4, sass/_about-me.scss */
   .about-me .container {
     height: 70%; }
     @media only screen and (min-width: 600px) {
+      /* line 6, sass/_about-me.scss */
       .about-me .container div {
         background-color: rgba(108, 119, 136, 0.95);
         border-radius: 3%;
         padding: 1% 10% 5%;
         margin: 30% auto; }
+        /* line 8, sass/_about-me.scss */
         .about-me .container div h2 {
           text-align: center; } }
     @media only screen and (min-width: 1200px) {
+      /* line 6, sass/_about-me.scss */
       .about-me .container div {
         width: 70%;
         margin: 13% auto;
         font-size: 1.3rem; } }
     @media only screen and (min-width: 1800px) {
+      /* line 6, sass/_about-me.scss */
       .about-me .container div {
         width: 70%;
         margin: 20% auto;
         font-size: 2.1rem; } }
+  /* line 28, sass/_about-me.scss */
   .about-me .background-image {
     background-image: url("img/laptop.jpg");
     width: 100%;
@@ -160,6 +195,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat; }
     @media only screen and (min-width: 600px) {
+      /* line 28, sass/_about-me.scss */
       .about-me .background-image {
         height: 84%;
         width: 84%;
@@ -177,59 +213,83 @@ header {
 /*----------------------------------
 -------------my-skills----------------
 ------------------------------------*/
+/* line 1, sass/_skills.scss */
 .my-skills {
   height: 100vh; }
+  /* line 3, sass/_skills.scss */
   .my-skills .box {
     padding: 1% 0; }
+    /* line 5, sass/_skills.scss */
     .my-skills .box p {
       text-transform: uppercase;
       padding: 2% 0; }
+    /* line 10, sass/_skills.scss */
     .my-skills .box .stars {
       border-bottom: 1px solid black;
       padding: 0 0 6%; }
+      /* line 13, sass/_skills.scss */
       .my-skills .box .stars .fas {
         text-shadow: 1px 1px 3px black;
         color: gold; }
+      /* line 17, sass/_skills.scss */
       .my-skills .box .stars .far {
         color: #6c7788; }
+  /* line 23, sass/_skills.scss */
   .my-skills .italic {
     padding-top: 3%; }
 
 @media only screen and (min-width: 600px) {
+  /* line 30, sass/_skills.scss */
   .my-skills .box {
     padding: 0; }
+    /* line 32, sass/_skills.scss */
     .my-skills .box h2 {
       padding: 0 2%; }
+    /* line 35, sass/_skills.scss */
     .my-skills .box .stars {
       padding: 0 0 2%; } }
+
 @media only screen and (min-width: 900px) {
+  /* line 28, sass/_skills.scss */
   .my-skills {
     text-align: center; }
+    /* line 42, sass/_skills.scss */
     .my-skills h2 {
       padding: 2% 0; }
+    /* line 46, sass/_skills.scss */
     .my-skills .box p {
       padding: 1% 0; }
+    /* line 49, sass/_skills.scss */
     .my-skills .box .stars {
       border-bottom: none; } }
+
 @media only screen and (min-width: 1200px) {
+  /* line 55, sass/_skills.scss */
   .my-skills h2 {
     padding: 1% 0; }
+  /* line 58, sass/_skills.scss */
   .my-skills .box {
     padding: 0; }
+    /* line 61, sass/_skills.scss */
     .my-skills .box p {
       padding: 1% 0; } }
+
 @media only screen and (min-width: 1800px) {
+  /* line 28, sass/_skills.scss */
   .my-skills {
     font-size: 2.1rem; } }
 
 /*----------------------------------
 -------------Project----------------
 ------------------------------------*/
+/* line 1, sass/_projects.scss */
 .projects {
   height: 100vh; }
   @media only screen and (min-width: 1800px) {
+    /* line 1, sass/_projects.scss */
     .projects {
       font-size: 2.1rem; } }
+  /* line 6, sass/_projects.scss */
   .projects a {
     text-decoration: none;
     color: black;
@@ -238,6 +298,7 @@ header {
     padding-top: 3%;
     display: block; }
 
+/* line 15, sass/_projects.scss */
 .card {
   width: 60vw;
   margin: 3% auto;
@@ -246,86 +307,110 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; }
+  /* line 23, sass/_projects.scss */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  /* line 26, sass/_projects.scss */
   .card .card-text {
     text-align: center; }
+  /* line 29, sass/_projects.scss */
   .card .side-img {
     width: 80%;
     height: 70%;
     overflow: hidden; }
+    /* line 33, sass/_projects.scss */
     .card .side-img img {
       width: 80%; }
   @media only screen and (min-width: 600px) {
+    /* line 15, sass/_projects.scss */
     .card {
       width: 40vh;
       height: 40vh; } }
 
 @media only screen and (min-width: 600px) {
+  /* line 42, sass/_projects.scss */
   .cards {
     display: flex;
     align-content: center;
     justify-content: center; }
+    /* line 47, sass/_projects.scss */
     .cards .card {
       margin-top: 5%; } }
 
 /*----------------------------------
 -------------Contact----------------
 ------------------------------------*/
+/* line 1, sass/_contact.scss */
 .contact {
   height: 100vh; }
+  /* line 3, sass/_contact.scss */
   .contact h2 {
     padding: 3% 0 0; }
     @media only screen and (min-width: 1800px) {
+      /* line 3, sass/_contact.scss */
       .contact h2 {
         font-size: 2.1rem; } }
+  /* line 9, sass/_contact.scss */
   .contact p, .contact a {
     text-align: center;
     padding: 20% 0;
     text-decoration: none;
     color: #515154;
     display: block; }
+    /* line 15, sass/_contact.scss */
     .contact p span, .contact a span {
       text-align: center;
       display: block; }
+    /* line 19, sass/_contact.scss */
     .contact p i, .contact a i {
       font-size: 4rem; }
     @media only screen and (min-width: 600px) {
+      /* line 9, sass/_contact.scss */
       .contact p, .contact a {
         padding: 5% 0;
         font-size: 1.8rem; } }
     @media only screen and (min-width: 1800px) {
+      /* line 9, sass/_contact.scss */
       .contact p, .contact a {
         padding: 5% 0;
         font-size: 3rem; }
+        /* line 30, sass/_contact.scss */
         .contact p i, .contact a i {
           font-size: 8rem; } }
 
+/* line 36, sass/_contact.scss */
 .fa-envelope {
   transform: translateX(5px); }
 
 /*----------------------------------
 --------------Footer----------------
 ------------------------------------*/
+/* line 1, sass/_footer.scss */
 footer {
   background-color: #6c7788;
   text-transform: uppercase;
   font-style: italic;
   font-size: 0.8rem; }
+  /* line 7, sass/_footer.scss */
   footer p {
     padding: 3% 10%; }
   @media only screen and (min-width: 600px) {
+    /* line 1, sass/_footer.scss */
     footer {
       font-size: 1.2rem; }
+      /* line 12, sass/_footer.scss */
       footer p {
         padding: 1% 3%; } }
   @media only screen and (min-width: 1200px) {
+    /* line 1, sass/_footer.scss */
     footer {
       font-size: 1.5rem; }
+      /* line 18, sass/_footer.scss */
       footer p {
         padding: 1% 5%; } }
   @media only screen and (min-width: 1800px) {
+    /* line 1, sass/_footer.scss */
     footer {
       font-size: 2rem; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=_style.css.map */

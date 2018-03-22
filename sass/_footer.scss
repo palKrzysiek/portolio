@@ -3,7 +3,23 @@ footer{
 	text-transform: uppercase;
 	font-style: italic;
 	font-size: 0.8rem;
+	
 	p{
 		padding: 3% 10%;
+	}
+	@media #{$s}{
+		font-size: 1.2rem;
+			p{
+				padding: 1% 3%;
+				}
+	}
+	@media #{$l}{
+		font-size: 1.5rem;
+			p{
+				padding: 1% 5%;
+				}
+	}
+	@media #{$xl}{
+		font-size: 2rem;
 	}
 }

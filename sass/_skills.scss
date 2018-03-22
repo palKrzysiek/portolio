@@ -1,7 +1,7 @@
 .my-skills{ 
 	height: 100vh; 
 	.box{
-		padding: 2% 0; 
+		padding: 1% 0; 
 		p{
 			text-transform: uppercase;
 			padding: 2% 0;
@@ -28,7 +28,7 @@
 .my-skills{
 	@media only screen and (min-width: 600px){
 		.box{
-			padding: 1% 0; 
+			padding: 0;
 			h2{
 				padding: 0 2%; 
 			} 
@@ -64,6 +64,6 @@
 		}
 	}
 	@media #{$xl}{
-		font-size: 2rem; 
+		font-size: 2.1rem; 
 	}
 }

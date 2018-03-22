@@ -18,6 +18,9 @@
 			font-size: 3rem;
 			text-shadow: 1px 1px 3px black;
 		};
+		@media #{$xl}{
+			font-size: 4rem;
+		};
 		span{
 			color: $light-color;
 			text-align: center; 
