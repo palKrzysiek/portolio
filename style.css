@@ -32,6 +32,12 @@ section {
 .darken-bg {
   background-color: #efeee6; }
 
+.hidden {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
+
 /*----------------------------------
 --------------Header----------------
 ------------------------------------*/
@@ -81,7 +87,7 @@ header {
     width: 100vw;
     display: flex;
     text-align: center;
-    padding: 1% 0; }
+    padding: 0.3% 0; }
     .menu a {
       font-size: 1.2rem;
       color: #efeee6;

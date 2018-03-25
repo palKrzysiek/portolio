@@ -40,6 +40,14 @@ section {
 .darken-bg {
   background-color: #efeee6; }
 
+/* line 31, sass/_global.scss */
+.hidden {
+  opacity: 0; }
+
+/* line 34, sass/_global.scss */
+.visible {
+  opacity: 1; }
+
 /*----------------------------------
 --------------Header----------------
 ------------------------------------*/
@@ -98,7 +106,7 @@ header {
     width: 100vw;
     display: flex;
     text-align: center;
-    padding: 1% 0; }
+    padding: 0.3% 0; }
     /* line 59, sass/_header.scss */
     .menu a {
       font-size: 1.2rem;

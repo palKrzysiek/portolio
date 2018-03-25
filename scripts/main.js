@@ -4,6 +4,9 @@ $(document).ready(function(){
 	checkWidth();
 	checkScroll();
 	scrollTo();
+	if(window.innerWidth>900){
+		runAnimations();
+	}
 });
 
 // dodawanie hover do navi
@@ -85,13 +88,37 @@ function scrollTo (){
     } else if( target.length && window.innerWidth>=900) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top *0.97
+            scrollTop: target.offset().top *0.98
         }, 300);
 }})};
 
 
 
+//animate.it
 
+
+function runAnimations(){
+	$('.about-me .container div').addClass("hidden animated").viewportChecker({
+			classToAdd: ' visible zoomIn',
+			classToRemove: 'hidden',
+			offset: 200
+		})
+	$('.box .stars').addClass("hidden animated").viewportChecker({
+			classToAdd: 'visible fadeIn',
+			classToRemove: 'hidden',
+			offset: 200
+		})
+	$('.cards .left-card').addClass("hidden animated").viewportChecker({
+			classToAdd: 'visible slideInLeft',
+			classToRemove: 'hidden',
+			offset: 200
+		})
+		$('.cards .right-card').addClass("hidden animated").viewportChecker({
+			classToAdd: 'visible slideInRight',
+			classToRemove: 'hidden',
+			offset: 200
+		})
+	};
 
 
 
