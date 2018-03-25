@@ -1,12 +1,16 @@
-$s: "only screen and (min-width: 600px)";
+$ln: "only screen and (max-width: 900px) and (orientation: landscape)";
+$s: "only screen and (min-width: 500px)";
+$sln: "only screen and (min-width: 500px) and (orientation: landscape)";
 $m: "only screen and (min-width: 900px)";
-$l: "only screen and (min-width: 1200px)";
+$l: "only screen and (min-width: 1200px) ";
 $xl: "only screen and (min-width: 1800px)";
 
 $accent-color: #e76710;
 $darken-main-color: #6c7788;
+$darken-main-color-opacity:rgba(109, 120, 136, 0.81);
 $dark-color:rgb(81, 81, 84);
 $light-color: #efeee6;
+$light-color-opacity: rgba(239, 238, 230, 0.92);
 $white-color: #fcfdff;
 
 $lato: 'Lato', sans-serif;
