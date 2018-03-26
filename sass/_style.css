@@ -6892,32 +6892,36 @@ header {
 ------------------------------------*/
 /* line 1, sass/_front-section.scss */
 .front-section {
-  background-image: url("img/rain-min.jpg");
+  background-image: url("img/rain-s-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center; }
-  /* line 9, sass/_front-section.scss */
+  @media only screen and (min-width: 900px) {
+    /* line 1, sass/_front-section.scss */
+    .front-section {
+      background-image: url("img/rain-min.jpg"); } }
+  /* line 11, sass/_front-section.scss */
   .front-section h1 {
     text-align: center;
     color: #e76710;
     margin: 0 auto;
     text-shadow: 1px 2px 1px black; }
     @media only screen and (min-width: 900px) {
-      /* line 9, sass/_front-section.scss */
+      /* line 11, sass/_front-section.scss */
       .front-section h1 {
         font-size: 2rem; } }
     @media only screen and (min-width: 1200px) {
-      /* line 9, sass/_front-section.scss */
+      /* line 11, sass/_front-section.scss */
       .front-section h1 {
         font-size: 3rem;
         text-shadow: 1px 1px 3px black; } }
     @media only screen and (min-width: 1800px) {
-      /* line 9, sass/_front-section.scss */
+      /* line 11, sass/_front-section.scss */
       .front-section h1 {
         font-size: 4rem; } }
-    /* line 24, sass/_front-section.scss */
+    /* line 26, sass/_front-section.scss */
     .front-section h1 span {
       color: #efeee6;
       text-align: center;
@@ -6969,13 +6973,17 @@ header {
             font-size: 0.8rem; } }
   /* line 38, sass/_about-me.scss */
   .about-me .background-image {
-    background-image: url("img/laptop-min.jpg");
+    background-image: url("img/laptop-s-min.jpg");
     width: 100%;
     margin-top: 5%;
     height: 30%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
+    @media only screen and (min-width: 900px) {
+      /* line 38, sass/_about-me.scss */
+      .about-me .background-image {
+        background-image: url("img/laptop-min.jpg"); } }
     @media only screen and (min-width: 500px) {
       /* line 38, sass/_about-me.scss */
       .about-me .background-image {

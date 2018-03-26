@@ -1,11 +1,13 @@
 .front-section{
-	background-image: url("img/rain-min.jpg");
+	background-image: url("img/rain-s-min.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;
-	
+	@media #{$m}{
+		background-image: url("img/rain-min.jpg");
+	}
 	h1{
 		text-align: center;
 		color: $accent-color;

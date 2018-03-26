@@ -6237,12 +6237,15 @@ header {
 ------------Front-section--------------
 ------------------------------------*/
 .front-section {
-  background-image: url("img/rain-min.jpg");
+  background-image: url("img/rain-s-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center; }
+  @media only screen and (min-width: 900px) {
+    .front-section {
+      background-image: url("img/rain-min.jpg"); } }
   .front-section h1 {
     text-align: center;
     color: #e76710;
@@ -6299,13 +6302,16 @@ header {
           .about-me .container div p {
             font-size: 0.8rem; } }
   .about-me .background-image {
-    background-image: url("img/laptop-min.jpg");
+    background-image: url("img/laptop-s-min.jpg");
     width: 100%;
     margin-top: 5%;
     height: 30%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
+    @media only screen and (min-width: 900px) {
+      .about-me .background-image {
+        background-image: url("img/laptop-min.jpg"); } }
     @media only screen and (min-width: 500px) {
       .about-me .background-image {
         height: 84%;
