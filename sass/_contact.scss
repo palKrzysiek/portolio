@@ -1,74 +1,39 @@
 .contact{
+	@media #{$xl}{
+		font-size: 3rem
+	}
+	display: grid;
 	height: 100vh;
-	@media #{$sln}{
-		padding: 1% 10%;
-	}
-	h2{
-		padding: 3% 0 0;
-		@media #{$xl}{
-			font-size: 2.1rem;
-		}
-	}
+	background-image: url("img/grid.jpg");
+	background-size: cover;
+	background-position: right;
+	text-transform: uppercase;
 	p,a{
 		text-align: center;
-		padding: 15% 0;
 		text-decoration: none;
 		color: $dark-color;
-		display: block;
+		font-size: 1rem;
+		@media#{$m}{
+		font-size: 2rem;
+		}
+		@media#{$xl}{
+			font-size: 3rem;
+		}
 		span{
 			text-align: center;
 			display: block;
 		}
 		i{
-			font-size:  4rem;
+			font-size: 10vh;
 		}
-		@media #{$s}{
-			//padding: 7% 0;
-			font-size: 1.8rem;
-		}
-		@media #{$m}{
-			padding: 4% 0;
-		}
-		@media #{$xl}{
-			padding: 5% 0;
-			
-			font-size: 3rem;
-			i{
-				font-size: 8rem;
-			}
-		}
+		
+		
 	}
-	@media #{$ln}{
-		a,p{
-			i{
-				font-size: 3rem;
-			}
-			text-align: left;
-			padding: 1%;
-			display: flex;
-			justify-content:center;
-			align-items: center;
-			span{
-				text-align: right;
-				display: inline;
-				padding-left: 5%;
-			}
-			
-		}
-		@media #{$s}{
-			padding: 7% 10%;
-		}
-		@media #{$m}{
-			padding: 4% 0;
-		}
-		@media #{$xl}{
-			padding: 1% 0;
-			
-			font-size: 3rem;
-			i{
-				font-size: 8rem;
+	a{
+		i{
+			&:hover{
+				color: $accent-color;
 			}
 		}
 	}
 }
-.fa-envelope{transform: translateX(5px);} 

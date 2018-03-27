@@ -46,7 +46,7 @@ function navActive()
 		{
 		var tab = document.querySelectorAll(".menu a");
 			for (let i = 0; i < tab.length; i++){
-				if(window.pageYOffset >= (i-0.1) * window.innerHeight && window.pageYOffset <= (i+0.9) * window.innerHeight){
+				if(window.pageYOffset >= (i-0.3) * window.innerHeight && window.pageYOffset <= (i+0.7) * window.innerHeight){
 				tab[i].classList.add("active");
 				}else {
 				tab[i].classList.remove("active");
@@ -75,7 +75,7 @@ function changeColor(){
 
 //scroll animacja
 
-//$("html, body").delay(2000).animate({scrollTop: $('#title1').offset().top }, 2000);
+
 	
 function scrollTo (){
 	$('.menu a[href^="#"]').on('click', function(event) {

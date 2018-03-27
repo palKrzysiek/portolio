@@ -1,16 +1,30 @@
-.my-skills{ 
+.my-skills{
+	h2{
+		padding: 2% 0 0 0;
+		@media #{$xl}{
+		font-size: 3rem
+	}
+	}
 	height: 100vh; 
+	background-image: url("img/puzzle.jpg");
+	background-position: center;
+	background-size: cover;
+	display: grid;
+	@media #{$xl}{
+		font-size: 2rem;
+		}
 	.box{
-		padding: 1% 0; 
+		text-align: center;
+		
 		p{
-			font-size: 2.5vh;
 			text-transform: uppercase;
-			padding: 2% 0;
- 
 		}
 		.stars{
 			border-bottom: 1px solid black;
-			padding: 0 0 4% ;
+			padding: 2% 0;
+			@media #{$s}{
+				border-bottom: none;
+			}
 			.fas{
     			text-shadow: 1px 1px 3px black;	
 				color: gold;
@@ -22,60 +36,17 @@
 
 	}
 	.italic{
-		padding-top: 3%;
-	}
-}
-	
-.my-skills{
-	@media #{$s}{
-		.box{
-			padding: 0;
-			h2{
-				padding: 0 2%; 
-			} 
-			p{
-				font-size: 1rem;
-			}
-			.stars{
-				padding: 0 0 2%; 
-			}
-		}
-	}
-	@media #{$m}{
-		text-align: center; 
-		h2{
-			padding: 2% 0 ;    
-			}
-		.box{  
-			p{
-				padding: 1% 0;
-			}
-			.stars{
-				border-bottom: none; 
-			}
-		}
-	}
-	@media #{$l}{
-		h2{
-			padding: 1% 0;       
-			}
-		.box{ 
-			padding: 0; 
-			
-			p{
-				padding: 1% 0;
-			}
-		}
-	}
-	@media #{$xl}{
-		font-size: 2.1rem; 
+		text-align: right;
 	}
 	@media #{$ln}{
-		font-size: 1rem;
-		.box{
-			width: 40%;
-			float: left;
-			margin: 1%;
+		grid-template-columns: 49% 49%;
+		 grid-column-gap: 2%;
+		h2{
+			grid-row: 1;
+			grid-column: 1/ span 2;
+		}
+		.italic{
+			grid-column: 2;
 		}
 	}
-}
+	}

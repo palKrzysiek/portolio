@@ -36,7 +36,7 @@
 		}
 		}
 	.background-image{
-		background-image: url("img/laptop-s-min.jpg");
+		background-image: url("img/tech.jpg");
 		width: 100%; 
 		margin-top: 5%;
 		height: 30%;
@@ -44,7 +44,7 @@
 		background-size: cover ;  
 		background-repeat: no-repeat; 
 		@media #{$m}{
-			background-image: url("img/laptop-min.jpg");
+			//background-image: url("img/laptop-min.jpg");
 		}
 		@media #{$s}{
 			height: 84%;  
