@@ -88,7 +88,7 @@ function scrollTo (){
     } else if( target.length && window.innerWidth>=900) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top *0.98
+            scrollTop: target.offset().top - (0.08 * window.innerHeight)
         }, 300);
 }})};
 
@@ -108,16 +108,12 @@ function runAnimations(){
 			classToRemove: 'hidden',
 			offset: 200
 		})
-	$('.cards .left-card').addClass("hidden animated").viewportChecker({
-			classToAdd: 'visible slideInLeft',
+	$('.cards .card').addClass("hidden animated").viewportChecker({
+			classToAdd: 'visible fadeInUp',
 			classToRemove: 'hidden',
 			offset: 200
 		})
-		$('.cards .right-card').addClass("hidden animated").viewportChecker({
-			classToAdd: 'visible slideInRight',
-			classToRemove: 'hidden',
-			offset: 200
-		})
+		
 	};
 
 

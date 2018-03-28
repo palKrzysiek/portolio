@@ -1,4 +1,7 @@
 .contact{
+	@media #{$m}{
+		height: 92vh;
+	}
 	@media #{$xl}{
 		font-size: 3rem
 	}
@@ -8,6 +11,7 @@
 	background-size: cover;
 	background-position: right;
 	text-transform: uppercase;
+	grid-template-rows: 15% 1fr 1fr 1fr;
 	p,a{
 		text-align: center;
 		text-decoration: none;
@@ -15,6 +19,7 @@
 		font-size: 1rem;
 		@media#{$m}{
 		font-size: 2rem;
+			
 		}
 		@media#{$xl}{
 			font-size: 3rem;

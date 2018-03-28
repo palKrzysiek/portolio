@@ -1,70 +1,11 @@
-/*
-.projects{
-	height: 100vh;
-	@media #{$xl}{
-		font-size: 2.1rem
-	}
-	a{
-		text-decoration: none;
-		color: black;
-		font-style: italic;
-		text-align: right;   
-		padding-top: 3%;
-		display: block;  
-	}
-}
-.card{ 
-	width: 60vw;
-	margin: 3% auto;
-	height: 60vw;
-	max-height: 40%;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-	&:hover {
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	}
-	.card-text{
-		text-align: center;
-	}
-	.side-img{
-		width: 80%;
-		height: 70%;
-		overflow: hidden; 
-		img{
-			width: 80%;		
-	}
-	}	 
-	@media #{$s}{
-		width:35vh;
-		height: 35vh;
-	} 
-}
-.cards{
-	@media only screen and (min-width: 700px){
-		display: flex;
-		align-content: center;
-		justify-content: center; 
-		.card{
-			margin-top: 5%;
-		}
-	}
-	@media #{$ln}{
-		display: flex;
-		align-content: center;
-		justify-content: center; 
-		.card{
-			margin-top: 5%;
-			font-size: 0.8rem;
-		}
-	}
-}*/
+
 .projects{
 	
 	height: 100vh;
 	@media #{$m}{
 	display: grid;
 	grid-template-rows: 10% 90%;
+		height: 92vh;
 	}
 	@media #{$ln}{
 		display: grid;
@@ -76,6 +17,10 @@
 }
 .cards{
 	display: grid;
+	height: 90%;
+	@media #{$s}{
+		height: auto;
+	}
 	@media #{$m}{
 		grid-template-columns: 30% 30% 30%;
 		grid-column-gap: 5%;
@@ -91,8 +36,9 @@
 	position: relative;
 	margin: 1vh auto 1vh;
 	overflow: hidden;
-	width: 25vh;
-	height: 25vh;
+	width: 80%;
+	height: 24vh;
+	max-width: 30vh;
 	box-shadow: 1px 1px 1px black;
 	img{
 		width: 100%;
@@ -112,6 +58,17 @@
 		opacity: 0;
 		transform: scale(0.8);
 		text-decoration: none;
+		@media #{$m}{
+			transform: scale(1);
+		}
+		@media #{$l}{
+			transform: scale(1.2);
+			margin: 2.2vw;
+		}
+		@media #{$xl}{
+			transform: scale(2.5);
+			margin: 3vw;
+		}
 		i {
 			display: block;
 			font-size: 23.52941176px;
@@ -125,6 +82,7 @@
 	@media #{$m}{
 		width: 100%;
 		height: 100%;
+		max-width: none;
 	}
 	@media #{$ln}{
 		width: 100%;
