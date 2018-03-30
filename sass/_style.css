@@ -6941,60 +6941,39 @@ header {
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(1) {
   animation-name: rain-1;
-  animation-delay: 2s;
-  animation-duration: 7s;
+  animation-delay: 10s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 59%;
-  opacity: 0.34;
-  top: -63%; }
+  left: 28%;
+  opacity: 0.57;
+  top: -93%; }
 
 @Keyframes rain-1 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 59%;
-    opacity: 0.34;
-    top: -63%; }
+    left: 28%;
+    opacity: 0.57;
+    top: -93%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 103%; } }
+    top: 133%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(2) {
   animation-name: rain-2;
-  animation-delay: 14s;
-  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 89%;
-  opacity: 0.57;
-  top: -74%; }
+  left: 69%;
+  opacity: 0.59;
+  top: -84%; }
 
 @Keyframes rain-2 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 89%;
-    opacity: 0.57;
-    top: -74%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 114%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(3) {
-  animation-name: rain-3;
-  animation-delay: 10s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 28%;
-  opacity: 0.35;
-  top: -84%; }
-
-@Keyframes rain-3 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 28%;
-    opacity: 0.35;
+    left: 69%;
+    opacity: 0.59;
     top: -84%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -7002,62 +6981,104 @@ header {
     top: 124%; } }
 
 /* line 51, sass/_front-section.scss */
+.rain:nth-of-type(3) {
+  animation-name: rain-3;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 20%;
+  opacity: 0.34;
+  top: -89%; }
+
+@Keyframes rain-3 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 20%;
+    opacity: 0.34;
+    top: -89%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 129%; } }
+
+/* line 51, sass/_front-section.scss */
 .rain:nth-of-type(4) {
   animation-name: rain-4;
   animation-delay: 9s;
-  animation-duration: 7s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 92%;
-  opacity: 0.47;
-  top: -63%; }
+  left: 70%;
+  opacity: 0.57;
+  top: -91%; }
 
 @Keyframes rain-4 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 92%;
-    opacity: 0.47;
-    top: -63%; }
+    left: 70%;
+    opacity: 0.57;
+    top: -91%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 103%; } }
+    top: 131%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(5) {
   animation-name: rain-5;
-  animation-delay: 4s;
-  animation-duration: 6s;
+  animation-delay: 3s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 74%;
-  opacity: 0.51;
-  top: -97%; }
+  left: 63%;
+  opacity: 0.32;
+  top: -80%; }
 
 @Keyframes rain-5 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 74%;
-    opacity: 0.51;
-    top: -97%; }
+    left: 63%;
+    opacity: 0.32;
+    top: -80%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 137%; } }
+    top: 120%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(6) {
   animation-name: rain-6;
-  animation-delay: 19s;
-  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 52%;
-  opacity: 0.37;
-  top: -53%; }
+  left: 17%;
+  opacity: 0.46;
+  top: -54%; }
 
 @Keyframes rain-6 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 52%;
-    opacity: 0.37;
+    left: 17%;
+    opacity: 0.46;
+    top: -54%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 94%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(7) {
+  animation-name: rain-7;
+  animation-delay: 19s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 33%;
+  opacity: 0.4;
+  top: -53%; }
+
+@Keyframes rain-7 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 33%;
+    opacity: 0.4;
     top: -53%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -7065,314 +7086,41 @@ header {
     top: 93%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(7) {
-  animation-name: rain-7;
-  animation-delay: 3s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 43%;
-  opacity: 0.54;
-  top: -68%; }
-
-@Keyframes rain-7 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 43%;
-    opacity: 0.54;
-    top: -68%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 108%; } }
-
-/* line 51, sass/_front-section.scss */
 .rain:nth-of-type(8) {
   animation-name: rain-8;
-  animation-delay: 1s;
-  animation-duration: 9s;
+  animation-delay: 17s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 37%;
-  opacity: 0.32;
-  top: -91%; }
+  left: 95%;
+  opacity: 0.59;
+  top: -88%; }
 
 @Keyframes rain-8 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 37%;
-    opacity: 0.32;
-    top: -91%; }
+    left: 95%;
+    opacity: 0.59;
+    top: -88%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 131%; } }
+    top: 128%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(9) {
   animation-name: rain-9;
-  animation-delay: 19s;
-  animation-duration: 6s;
+  animation-delay: 12s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 5%;
-  opacity: 0.42;
-  top: -86%; }
+  left: 47%;
+  opacity: 0.37;
+  top: -73%; }
 
 @Keyframes rain-9 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 5%;
-    opacity: 0.42;
-    top: -86%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 126%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(10) {
-  animation-name: rain-10;
-  animation-delay: 18s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 70%;
-  opacity: 0.36;
-  top: -58%; }
-
-@Keyframes rain-10 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 70%;
-    opacity: 0.36;
-    top: -58%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 98%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(11) {
-  animation-name: rain-11;
-  animation-delay: 11s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 27%;
-  opacity: 0.37;
-  top: -60%; }
-
-@Keyframes rain-11 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 27%;
-    opacity: 0.37;
-    top: -60%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 100%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(12) {
-  animation-name: rain-12;
-  animation-delay: 6s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 71%;
-  opacity: 0.36;
-  top: -71%; }
-
-@Keyframes rain-12 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 71%;
-    opacity: 0.36;
-    top: -71%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 111%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(13) {
-  animation-name: rain-13;
-  animation-delay: 3s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 47%;
-  opacity: 0.44;
-  top: -70%; }
-
-@Keyframes rain-13 {
-  /* line 62, sass/_front-section.scss */
-  0% {
     left: 47%;
-    opacity: 0.44;
-    top: -70%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 110%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(14) {
-  animation-name: rain-14;
-  animation-delay: 9s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 91%;
-  opacity: 0.59;
-  top: -82%; }
-
-@Keyframes rain-14 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 91%;
-    opacity: 0.59;
-    top: -82%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 122%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(15) {
-  animation-name: rain-15;
-  animation-delay: 18s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 63%;
-  opacity: 0.6;
-  top: -56%; }
-
-@Keyframes rain-15 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 63%;
-    opacity: 0.6;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(16) {
-  animation-name: rain-16;
-  animation-delay: 5s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 41%;
-  opacity: 0.54;
-  top: -96%; }
-
-@Keyframes rain-16 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 41%;
-    opacity: 0.54;
-    top: -96%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 136%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(17) {
-  animation-name: rain-17;
-  animation-delay: 6s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 53%;
-  opacity: 0.58;
-  top: -70%; }
-
-@Keyframes rain-17 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 53%;
-    opacity: 0.58;
-    top: -70%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 110%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(18) {
-  animation-name: rain-18;
-  animation-delay: 18s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 66%;
-  opacity: 0.52;
-  top: -65%; }
-
-@Keyframes rain-18 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 66%;
-    opacity: 0.52;
-    top: -65%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 105%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(19) {
-  animation-name: rain-19;
-  animation-delay: 17s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 7%;
-  opacity: 0.36;
-  top: -85%; }
-
-@Keyframes rain-19 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 7%;
-    opacity: 0.36;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(20) {
-  animation-name: rain-20;
-  animation-delay: 17s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 82%;
-  opacity: 0.6;
-  top: -85%; }
-
-@Keyframes rain-20 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 82%;
-    opacity: 0.6;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(21) {
-  animation-name: rain-21;
-  animation-delay: 5s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 53%;
-  opacity: 0.35;
-  top: -73%; }
-
-@Keyframes rain-21 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 53%;
-    opacity: 0.35;
+    opacity: 0.37;
     top: -73%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -7380,503 +7128,20 @@ header {
     top: 113%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(22) {
-  animation-name: rain-22;
-  animation-delay: 0s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 86%;
-  opacity: 0.55;
-  top: -56%; }
-
-@Keyframes rain-22 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 86%;
-    opacity: 0.55;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(23) {
-  animation-name: rain-23;
-  animation-delay: 11s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 15%;
-  opacity: 0.59;
-  top: -52%; }
-
-@Keyframes rain-23 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 15%;
-    opacity: 0.59;
-    top: -52%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 92%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(24) {
-  animation-name: rain-24;
-  animation-delay: 4s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 67%;
-  opacity: 0.38;
-  top: -55%; }
-
-@Keyframes rain-24 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 67%;
-    opacity: 0.38;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(25) {
-  animation-name: rain-25;
-  animation-delay: 15s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 54%;
-  opacity: 0.32;
-  top: -93%; }
-
-@Keyframes rain-25 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 54%;
-    opacity: 0.32;
-    top: -93%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 133%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(26) {
-  animation-name: rain-26;
-  animation-delay: 15s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 56%;
-  opacity: 0.45;
-  top: -97%; }
-
-@Keyframes rain-26 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 56%;
-    opacity: 0.45;
-    top: -97%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 137%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(27) {
-  animation-name: rain-27;
-  animation-delay: 17s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 37%;
-  opacity: 0.36;
-  top: -51%; }
-
-@Keyframes rain-27 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 37%;
-    opacity: 0.36;
-    top: -51%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 91%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(28) {
-  animation-name: rain-28;
-  animation-delay: 14s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 52%;
-  opacity: 0.52;
-  top: -91%; }
-
-@Keyframes rain-28 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 52%;
-    opacity: 0.52;
-    top: -91%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 131%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(29) {
-  animation-name: rain-29;
-  animation-delay: 11s;
+.rain:nth-of-type(10) {
+  animation-name: rain-10;
+  animation-delay: 2s;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 12%;
-  opacity: 0.49;
-  top: -68%; }
-
-@Keyframes rain-29 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 12%;
-    opacity: 0.49;
-    top: -68%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 108%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(30) {
-  animation-name: rain-30;
-  animation-delay: 14s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 27%;
-  opacity: 0.34;
-  top: -83%; }
-
-@Keyframes rain-30 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 27%;
-    opacity: 0.34;
-    top: -83%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 123%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(31) {
-  animation-name: rain-31;
-  animation-delay: 18s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 36%;
-  opacity: 0.48;
-  top: -82%; }
-
-@Keyframes rain-31 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 36%;
-    opacity: 0.48;
-    top: -82%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 122%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(32) {
-  animation-name: rain-32;
-  animation-delay: 17s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 78%;
-  opacity: 0.32;
-  top: -71%; }
-
-@Keyframes rain-32 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 78%;
-    opacity: 0.32;
-    top: -71%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 111%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(33) {
-  animation-name: rain-33;
-  animation-delay: 15s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 9%;
-  opacity: 0.44;
-  top: -61%; }
-
-@Keyframes rain-33 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 9%;
-    opacity: 0.44;
-    top: -61%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 101%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(34) {
-  animation-name: rain-34;
-  animation-delay: 7s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 39%;
-  opacity: 0.36;
-  top: -77%; }
-
-@Keyframes rain-34 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 39%;
-    opacity: 0.36;
-    top: -77%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 117%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(35) {
-  animation-name: rain-35;
-  animation-delay: 8s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 83%;
-  opacity: 0.52;
-  top: -56%; }
-
-@Keyframes rain-35 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 83%;
-    opacity: 0.52;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(36) {
-  animation-name: rain-36;
-  animation-delay: 4s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 69%;
-  opacity: 0.43;
-  top: -79%; }
-
-@Keyframes rain-36 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 69%;
-    opacity: 0.43;
-    top: -79%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 119%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(37) {
-  animation-name: rain-37;
-  animation-delay: 4s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 95%;
-  opacity: 0.5;
-  top: -77%; }
-
-@Keyframes rain-37 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 95%;
-    opacity: 0.5;
-    top: -77%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 117%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(38) {
-  animation-name: rain-38;
-  animation-delay: 1s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 24%;
-  opacity: 0.58;
-  top: -55%; }
-
-@Keyframes rain-38 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 24%;
-    opacity: 0.58;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(39) {
-  animation-name: rain-39;
-  animation-delay: 1s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 13%;
-  opacity: 0.51;
-  top: -78%; }
-
-@Keyframes rain-39 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 13%;
-    opacity: 0.51;
-    top: -78%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 118%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(40) {
-  animation-name: rain-40;
-  animation-delay: 9s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 43%;
-  opacity: 0.55;
-  top: -58%; }
-
-@Keyframes rain-40 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 43%;
-    opacity: 0.55;
-    top: -58%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 98%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(41) {
-  animation-name: rain-41;
-  animation-delay: 14s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 96%;
-  opacity: 0.41;
-  top: -86%; }
-
-@Keyframes rain-41 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 96%;
-    opacity: 0.41;
-    top: -86%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 126%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(42) {
-  animation-name: rain-42;
-  animation-delay: 13s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 94%;
-  opacity: 0.42;
-  top: -93%; }
-
-@Keyframes rain-42 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 94%;
-    opacity: 0.42;
-    top: -93%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 133%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(43) {
-  animation-name: rain-43;
-  animation-delay: 19s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 54%;
-  opacity: 0.59;
-  top: -100%; }
-
-@Keyframes rain-43 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 54%;
-    opacity: 0.59;
-    top: -100%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 140%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(44) {
-  animation-name: rain-44;
-  animation-delay: 13s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 99%;
-  opacity: 0.57;
-  top: -98%; }
-
-@Keyframes rain-44 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 99%;
-    opacity: 0.57;
-    top: -98%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 138%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(45) {
-  animation-name: rain-45;
-  animation-delay: 13s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 46%;
-  opacity: 0.47;
+  left: 1%;
+  opacity: 0.35;
   top: -90%; }
 
-@Keyframes rain-45 {
+@Keyframes rain-10 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 46%;
-    opacity: 0.47;
+    left: 1%;
+    opacity: 0.35;
     top: -90%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -7884,20 +7149,755 @@ header {
     top: 130%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(46) {
-  animation-name: rain-46;
-  animation-delay: 15s;
+.rain:nth-of-type(11) {
+  animation-name: rain-11;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 5%;
+  opacity: 0.37;
+  top: -73%; }
+
+@Keyframes rain-11 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 5%;
+    opacity: 0.37;
+    top: -73%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 113%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(12) {
+  animation-name: rain-12;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 24%;
+  opacity: 0.58;
+  top: -93%; }
+
+@Keyframes rain-12 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 24%;
+    opacity: 0.58;
+    top: -93%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 133%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(13) {
+  animation-name: rain-13;
+  animation-delay: 14s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 30%;
+  opacity: 0.51;
+  top: -62%; }
+
+@Keyframes rain-13 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 30%;
+    opacity: 0.51;
+    top: -62%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 102%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(14) {
+  animation-name: rain-14;
+  animation-delay: 4s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 20%;
+  opacity: 0.41;
+  top: -88%; }
+
+@Keyframes rain-14 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 20%;
+    opacity: 0.41;
+    top: -88%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 128%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(15) {
+  animation-name: rain-15;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 67%;
+  opacity: 0.38;
+  top: -97%; }
+
+@Keyframes rain-15 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 67%;
+    opacity: 0.38;
+    top: -97%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 137%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(16) {
+  animation-name: rain-16;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 82%;
+  opacity: 0.36;
+  top: -95%; }
+
+@Keyframes rain-16 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 82%;
+    opacity: 0.36;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(17) {
+  animation-name: rain-17;
+  animation-delay: 14s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 96%;
+  opacity: 0.59;
+  top: -68%; }
+
+@Keyframes rain-17 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 96%;
+    opacity: 0.59;
+    top: -68%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 108%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(18) {
+  animation-name: rain-18;
+  animation-delay: 11s;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 47%;
-  opacity: 0.52;
+  left: 75%;
+  opacity: 0.56;
+  top: -88%; }
+
+@Keyframes rain-18 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 75%;
+    opacity: 0.56;
+    top: -88%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 128%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(19) {
+  animation-name: rain-19;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 100%;
+  opacity: 0.31;
+  top: -72%; }
+
+@Keyframes rain-19 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 100%;
+    opacity: 0.31;
+    top: -72%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 112%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(20) {
+  animation-name: rain-20;
+  animation-delay: 8s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 43%;
+  opacity: 0.4;
+  top: -68%; }
+
+@Keyframes rain-20 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 43%;
+    opacity: 0.4;
+    top: -68%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 108%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(21) {
+  animation-name: rain-21;
+  animation-delay: 9s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 18%;
+  opacity: 0.47;
+  top: -70%; }
+
+@Keyframes rain-21 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 18%;
+    opacity: 0.47;
+    top: -70%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 110%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(22) {
+  animation-name: rain-22;
+  animation-delay: 18s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 10%;
+  opacity: 0.54;
+  top: -92%; }
+
+@Keyframes rain-22 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 10%;
+    opacity: 0.54;
+    top: -92%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 132%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(23) {
+  animation-name: rain-23;
+  animation-delay: 8s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 23%;
+  opacity: 0.57;
+  top: -73%; }
+
+@Keyframes rain-23 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 23%;
+    opacity: 0.57;
+    top: -73%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 113%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(24) {
+  animation-name: rain-24;
+  animation-delay: 5s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  opacity: 0.37;
+  top: -59%; }
+
+@Keyframes rain-24 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 75%;
+    opacity: 0.37;
+    top: -59%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 99%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(25) {
+  animation-name: rain-25;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 12%;
+  opacity: 0.31;
+  top: -85%; }
+
+@Keyframes rain-25 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 12%;
+    opacity: 0.31;
+    top: -85%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 125%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(26) {
+  animation-name: rain-26;
+  animation-delay: 8s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 74%;
+  opacity: 0.43;
+  top: -99%; }
+
+@Keyframes rain-26 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 74%;
+    opacity: 0.43;
+    top: -99%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 139%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(27) {
+  animation-name: rain-27;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 11%;
+  opacity: 0.38;
+  top: -95%; }
+
+@Keyframes rain-27 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 11%;
+    opacity: 0.38;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(28) {
+  animation-name: rain-28;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.5;
+  top: -54%; }
+
+@Keyframes rain-28 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 64%;
+    opacity: 0.5;
+    top: -54%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 94%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(29) {
+  animation-name: rain-29;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.46;
+  top: -60%; }
+
+@Keyframes rain-29 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 64%;
+    opacity: 0.46;
+    top: -60%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 100%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(30) {
+  animation-name: rain-30;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 32%;
+  opacity: 0.37;
+  top: -66%; }
+
+@Keyframes rain-30 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 32%;
+    opacity: 0.37;
+    top: -66%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 106%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(31) {
+  animation-name: rain-31;
+  animation-delay: 7s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 17%;
+  opacity: 0.44;
+  top: -69%; }
+
+@Keyframes rain-31 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 17%;
+    opacity: 0.44;
+    top: -69%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 109%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(32) {
+  animation-name: rain-32;
+  animation-delay: 10s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 73%;
+  opacity: 0.43;
+  top: -89%; }
+
+@Keyframes rain-32 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 73%;
+    opacity: 0.43;
+    top: -89%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 129%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(33) {
+  animation-name: rain-33;
+  animation-delay: 13s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 74%;
+  opacity: 0.43;
+  top: -65%; }
+
+@Keyframes rain-33 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 74%;
+    opacity: 0.43;
+    top: -65%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 105%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(34) {
+  animation-name: rain-34;
+  animation-delay: 16s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 94%;
+  opacity: 0.33;
+  top: -97%; }
+
+@Keyframes rain-34 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 94%;
+    opacity: 0.33;
+    top: -97%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 137%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(35) {
+  animation-name: rain-35;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 51%;
+  opacity: 0.39;
+  top: -84%; }
+
+@Keyframes rain-35 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 51%;
+    opacity: 0.39;
+    top: -84%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 124%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(36) {
+  animation-name: rain-36;
+  animation-delay: 4s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 56%;
+  opacity: 0.48;
+  top: -95%; }
+
+@Keyframes rain-36 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 56%;
+    opacity: 0.48;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(37) {
+  animation-name: rain-37;
+  animation-delay: 11s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 62%;
+  opacity: 0.51;
+  top: -72%; }
+
+@Keyframes rain-37 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 62%;
+    opacity: 0.51;
+    top: -72%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 112%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(38) {
+  animation-name: rain-38;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 99%;
+  opacity: 0.43;
+  top: -77%; }
+
+@Keyframes rain-38 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 99%;
+    opacity: 0.43;
+    top: -77%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 117%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(39) {
+  animation-name: rain-39;
+  animation-delay: 17s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 83%;
+  opacity: 0.35;
+  top: -63%; }
+
+@Keyframes rain-39 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 83%;
+    opacity: 0.35;
+    top: -63%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 103%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(40) {
+  animation-name: rain-40;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 0.55;
+  top: -64%; }
+
+@Keyframes rain-40 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 27%;
+    opacity: 0.55;
+    top: -64%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 104%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(41) {
+  animation-name: rain-41;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 40%;
+  opacity: 0.58;
+  top: -87%; }
+
+@Keyframes rain-41 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 40%;
+    opacity: 0.58;
+    top: -87%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 127%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(42) {
+  animation-name: rain-42;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 24%;
+  opacity: 0.46;
+  top: -66%; }
+
+@Keyframes rain-42 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 24%;
+    opacity: 0.46;
+    top: -66%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 106%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(43) {
+  animation-name: rain-43;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 16%;
+  opacity: 0.44;
+  top: -80%; }
+
+@Keyframes rain-43 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 16%;
+    opacity: 0.44;
+    top: -80%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 120%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(44) {
+  animation-name: rain-44;
+  animation-delay: 18s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 97%;
+  opacity: 0.32;
+  top: -92%; }
+
+@Keyframes rain-44 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 97%;
+    opacity: 0.32;
+    top: -92%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 132%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(45) {
+  animation-name: rain-45;
+  animation-delay: 19s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 12%;
+  opacity: 0.41;
+  top: -83%; }
+
+@Keyframes rain-45 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 12%;
+    opacity: 0.41;
+    top: -83%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 123%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(46) {
+  animation-name: rain-46;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 82%;
+  opacity: 0.32;
   top: -100%; }
 
 @Keyframes rain-46 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 47%;
-    opacity: 0.52;
+    left: 82%;
+    opacity: 0.32;
     top: -100%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -7907,144 +7907,102 @@ header {
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(47) {
   animation-name: rain-47;
-  animation-delay: 8s;
-  animation-duration: 8s;
+  animation-delay: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 96%;
-  opacity: 0.49;
-  top: -94%; }
+  left: 97%;
+  opacity: 0.47;
+  top: -79%; }
 
 @Keyframes rain-47 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 96%;
-    opacity: 0.49;
-    top: -94%; }
+    left: 97%;
+    opacity: 0.47;
+    top: -79%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 134%; } }
+    top: 119%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(48) {
   animation-name: rain-48;
-  animation-delay: 4s;
-  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 30%;
-  opacity: 0.48;
-  top: -69%; }
+  left: 57%;
+  opacity: 0.6;
+  top: -71%; }
 
 @Keyframes rain-48 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 30%;
-    opacity: 0.48;
-    top: -69%; }
+    left: 57%;
+    opacity: 0.6;
+    top: -71%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 109%; } }
+    top: 111%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(49) {
   animation-name: rain-49;
-  animation-delay: 18s;
-  animation-duration: 8s;
+  animation-delay: 14s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 23%;
-  opacity: 0.36;
-  top: -69%; }
+  left: 87%;
+  opacity: 0.35;
+  top: -84%; }
 
 @Keyframes rain-49 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 23%;
-    opacity: 0.36;
-    top: -69%; }
+    left: 87%;
+    opacity: 0.35;
+    top: -84%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 109%; } }
+    top: 124%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(50) {
   animation-name: rain-50;
-  animation-delay: 17s;
+  animation-delay: 18s;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 7%;
-  opacity: 0.31;
-  top: -51%; }
+  left: 9%;
+  opacity: 0.54;
+  top: -96%; }
 
 @Keyframes rain-50 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 7%;
-    opacity: 0.31;
-    top: -51%; }
+    left: 9%;
+    opacity: 0.54;
+    top: -96%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 91%; } }
+    top: 136%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(51) {
   animation-name: rain-51;
-  animation-delay: 18s;
-  animation-duration: 8s;
+  animation-delay: 11s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 90%;
-  opacity: 0.36;
-  top: -89%; }
+  left: 21%;
+  opacity: 0.48;
+  top: -98%; }
 
 @Keyframes rain-51 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 90%;
-    opacity: 0.36;
-    top: -89%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 129%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(52) {
-  animation-name: rain-52;
-  animation-delay: 3s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 22%;
-  opacity: 0.48;
-  top: -87%; }
-
-@Keyframes rain-52 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 22%;
+    left: 21%;
     opacity: 0.48;
-    top: -87%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 127%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(53) {
-  animation-name: rain-53;
-  animation-delay: 18s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 54%;
-  opacity: 0.35;
-  top: -98%; }
-
-@Keyframes rain-53 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 54%;
-    opacity: 0.35;
     top: -98%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8052,83 +8010,41 @@ header {
     top: 138%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(54) {
-  animation-name: rain-54;
-  animation-delay: 12s;
-  animation-duration: 6s;
+.rain:nth-of-type(52) {
+  animation-name: rain-52;
+  animation-delay: 15s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 97%;
-  opacity: 0.34;
-  top: -73%; }
+  left: 1%;
+  opacity: 0.37;
+  top: -76%; }
 
-@Keyframes rain-54 {
+@Keyframes rain-52 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 97%;
-    opacity: 0.34;
-    top: -73%; }
+    left: 1%;
+    opacity: 0.37;
+    top: -76%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 113%; } }
+    top: 116%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(55) {
-  animation-name: rain-55;
-  animation-delay: 8s;
-  animation-duration: 10s;
+.rain:nth-of-type(53) {
+  animation-name: rain-53;
+  animation-delay: 10s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 38%;
-  opacity: 0.42;
-  top: -69%; }
-
-@Keyframes rain-55 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 38%;
-    opacity: 0.42;
-    top: -69%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 109%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(56) {
-  animation-name: rain-56;
-  animation-delay: 19s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 81%;
-  opacity: 0.59;
-  top: -88%; }
-
-@Keyframes rain-56 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 81%;
-    opacity: 0.59;
-    top: -88%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 128%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(57) {
-  animation-name: rain-57;
-  animation-delay: 2s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 79%;
-  opacity: 0.44;
+  left: 53%;
+  opacity: 0.47;
   top: -77%; }
 
-@Keyframes rain-57 {
+@Keyframes rain-53 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 79%;
-    opacity: 0.44;
+    left: 53%;
+    opacity: 0.47;
     top: -77%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8136,104 +8052,188 @@ header {
     top: 117%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(58) {
-  animation-name: rain-58;
-  animation-delay: 13s;
+.rain:nth-of-type(54) {
+  animation-name: rain-54;
+  animation-delay: 17s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 33%;
+  opacity: 0.41;
+  top: -78%; }
+
+@Keyframes rain-54 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 33%;
+    opacity: 0.41;
+    top: -78%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 118%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(55) {
+  animation-name: rain-55;
+  animation-delay: 6s;
   animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 68%;
-  opacity: 0.57;
-  top: -54%; }
+  left: 81%;
+  opacity: 0.33;
+  top: -57%; }
+
+@Keyframes rain-55 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 81%;
+    opacity: 0.33;
+    top: -57%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 97%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(56) {
+  animation-name: rain-56;
+  animation-delay: 10s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 39%;
+  opacity: 0.52;
+  top: -57%; }
+
+@Keyframes rain-56 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 39%;
+    opacity: 0.52;
+    top: -57%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 97%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(57) {
+  animation-name: rain-57;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 22%;
+  opacity: 0.39;
+  top: -79%; }
+
+@Keyframes rain-57 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 22%;
+    opacity: 0.39;
+    top: -79%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 119%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(58) {
+  animation-name: rain-58;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 53%;
+  opacity: 0.56;
+  top: -61%; }
 
 @Keyframes rain-58 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 68%;
-    opacity: 0.57;
-    top: -54%; }
+    left: 53%;
+    opacity: 0.56;
+    top: -61%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 94%; } }
+    top: 101%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(59) {
   animation-name: rain-59;
-  animation-delay: 4s;
-  animation-duration: 8s;
+  animation-delay: 8s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 69%;
+  left: 56%;
   opacity: 0.31;
-  top: -89%; }
+  top: -95%; }
 
 @Keyframes rain-59 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 69%;
+    left: 56%;
     opacity: 0.31;
-    top: -89%; }
+    top: -95%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 129%; } }
+    top: 135%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(60) {
   animation-name: rain-60;
-  animation-delay: 8s;
-  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 78%;
+  left: 36%;
   opacity: 0.34;
-  top: -72%; }
+  top: -92%; }
 
 @Keyframes rain-60 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 78%;
+    left: 36%;
     opacity: 0.34;
-    top: -72%; }
+    top: -92%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 112%; } }
+    top: 132%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(61) {
   animation-name: rain-61;
-  animation-delay: 9s;
+  animation-delay: 0s;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 8%;
-  opacity: 0.43;
-  top: -59%; }
+  left: 36%;
+  opacity: 0.47;
+  top: -80%; }
 
 @Keyframes rain-61 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 8%;
-    opacity: 0.43;
-    top: -59%; }
+    left: 36%;
+    opacity: 0.47;
+    top: -80%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 99%; } }
+    top: 120%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(62) {
   animation-name: rain-62;
-  animation-delay: 15s;
-  animation-duration: 9s;
+  animation-delay: 4s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 37%;
-  opacity: 0.53;
+  left: 46%;
+  opacity: 0.57;
   top: -55%; }
 
 @Keyframes rain-62 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 37%;
-    opacity: 0.53;
+    left: 46%;
+    opacity: 0.57;
     top: -55%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8243,123 +8243,81 @@ header {
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(63) {
   animation-name: rain-63;
-  animation-delay: 3s;
-  animation-duration: 8s;
+  animation-delay: 9s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 73%;
-  opacity: 0.4;
-  top: -53%; }
+  left: 84%;
+  opacity: 0.36;
+  top: -94%; }
 
 @Keyframes rain-63 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 73%;
-    opacity: 0.4;
-    top: -53%; }
+    left: 84%;
+    opacity: 0.36;
+    top: -94%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 93%; } }
+    top: 134%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(64) {
   animation-name: rain-64;
-  animation-delay: 5s;
-  animation-duration: 9s;
+  animation-delay: 18s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 52%;
-  opacity: 0.49;
-  top: -52%; }
+  left: 93%;
+  opacity: 0.39;
+  top: -60%; }
 
 @Keyframes rain-64 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 52%;
-    opacity: 0.49;
-    top: -52%; }
+    left: 93%;
+    opacity: 0.39;
+    top: -60%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 92%; } }
+    top: 100%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(65) {
   animation-name: rain-65;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 96%;
-  opacity: 0.51;
-  top: -84%; }
+  left: 52%;
+  opacity: 0.43;
+  top: -56%; }
 
 @Keyframes rain-65 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 96%;
-    opacity: 0.51;
-    top: -84%; }
+    left: 52%;
+    opacity: 0.43;
+    top: -56%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 124%; } }
+    top: 96%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(66) {
   animation-name: rain-66;
-  animation-delay: 15s;
-  animation-duration: 6s;
+  animation-delay: 18s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 28%;
-  opacity: 0.34;
-  top: -92%; }
+  left: 96%;
+  opacity: 0.46;
+  top: -91%; }
 
 @Keyframes rain-66 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 28%;
-    opacity: 0.34;
-    top: -92%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 132%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(67) {
-  animation-name: rain-67;
-  animation-delay: 7s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 70%;
-  opacity: 0.42;
-  top: -85%; }
-
-@Keyframes rain-67 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 70%;
-    opacity: 0.42;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(68) {
-  animation-name: rain-68;
-  animation-delay: 16s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 22%;
-  opacity: 0.48;
-  top: -91%; }
-
-@Keyframes rain-68 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 22%;
-    opacity: 0.48;
+    left: 96%;
+    opacity: 0.46;
     top: -91%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8367,124 +8325,61 @@ header {
     top: 131%; } }
 
 /* line 51, sass/_front-section.scss */
+.rain:nth-of-type(67) {
+  animation-name: rain-67;
+  animation-delay: 19s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 11%;
+  opacity: 0.51;
+  top: -97%; }
+
+@Keyframes rain-67 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 11%;
+    opacity: 0.51;
+    top: -97%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 137%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(68) {
+  animation-name: rain-68;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  opacity: 0.4;
+  top: -68%; }
+
+@Keyframes rain-68 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 75%;
+    opacity: 0.4;
+    top: -68%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 108%; } }
+
+/* line 51, sass/_front-section.scss */
 .rain:nth-of-type(69) {
   animation-name: rain-69;
-  animation-delay: 19s;
-  animation-duration: 6s;
+  animation-delay: 9s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 68%;
-  opacity: 0.51;
-  top: -73%; }
+  left: 82%;
+  opacity: 0.48;
+  top: -99%; }
 
 @Keyframes rain-69 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 68%;
-    opacity: 0.51;
-    top: -73%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 113%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(70) {
-  animation-name: rain-70;
-  animation-delay: 8s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 96%;
-  opacity: 0.49;
-  top: -82%; }
-
-@Keyframes rain-70 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 96%;
-    opacity: 0.49;
-    top: -82%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 122%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(71) {
-  animation-name: rain-71;
-  animation-delay: 5s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 93%;
-  opacity: 0.46;
-  top: -56%; }
-
-@Keyframes rain-71 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 93%;
-    opacity: 0.46;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(72) {
-  animation-name: rain-72;
-  animation-delay: 1s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 52%;
-  opacity: 0.46;
-  top: -67%; }
-
-@Keyframes rain-72 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 52%;
-    opacity: 0.46;
-    top: -67%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 107%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(73) {
-  animation-name: rain-73;
-  animation-delay: 17s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 26%;
-  opacity: 0.6;
-  top: -56%; }
-
-@Keyframes rain-73 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 26%;
-    opacity: 0.6;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(74) {
-  animation-name: rain-74;
-  animation-delay: 9s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 71%;
-  opacity: 0.48;
-  top: -99%; }
-
-@Keyframes rain-74 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 71%;
+    left: 82%;
     opacity: 0.48;
     top: -99%; }
   /* line 67, sass/_front-section.scss */
@@ -8493,25 +8388,130 @@ header {
     top: 139%; } }
 
 /* line 51, sass/_front-section.scss */
+.rain:nth-of-type(70) {
+  animation-name: rain-70;
+  animation-delay: 12s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 3%;
+  opacity: 0.34;
+  top: -98%; }
+
+@Keyframes rain-70 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 3%;
+    opacity: 0.34;
+    top: -98%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 138%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(71) {
+  animation-name: rain-71;
+  animation-delay: 16s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 34%;
+  opacity: 0.47;
+  top: -63%; }
+
+@Keyframes rain-71 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 34%;
+    opacity: 0.47;
+    top: -63%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 103%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(72) {
+  animation-name: rain-72;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 21%;
+  opacity: 0.52;
+  top: -52%; }
+
+@Keyframes rain-72 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 21%;
+    opacity: 0.52;
+    top: -52%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 92%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(73) {
+  animation-name: rain-73;
+  animation-delay: 14s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 44%;
+  opacity: 0.43;
+  top: -64%; }
+
+@Keyframes rain-73 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 44%;
+    opacity: 0.43;
+    top: -64%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 104%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(74) {
+  animation-name: rain-74;
+  animation-delay: 15s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.5;
+  top: -73%; }
+
+@Keyframes rain-74 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 7%;
+    opacity: 0.5;
+    top: -73%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 113%; } }
+
+/* line 51, sass/_front-section.scss */
 .rain:nth-of-type(75) {
   animation-name: rain-75;
-  animation-delay: 1s;
-  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 38%;
-  opacity: 0.54;
-  top: -99%; }
+  left: 12%;
+  opacity: 0.5;
+  top: -62%; }
 
 @Keyframes rain-75 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 38%;
-    opacity: 0.54;
-    top: -99%; }
+    left: 12%;
+    opacity: 0.5;
+    top: -62%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 139%; } }
+    top: 102%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(76) {
@@ -8519,57 +8519,15 @@ header {
   animation-delay: 13s;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 3%;
-  opacity: 0.48;
-  top: -64%; }
+  left: 66%;
+  opacity: 0.57;
+  top: -86%; }
 
 @Keyframes rain-76 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 3%;
-    opacity: 0.48;
-    top: -64%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 104%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(77) {
-  animation-name: rain-77;
-  animation-delay: 9s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 82%;
-  opacity: 0.49;
-  top: -54%; }
-
-@Keyframes rain-77 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 82%;
-    opacity: 0.49;
-    top: -54%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 94%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(78) {
-  animation-name: rain-78;
-  animation-delay: 14s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 77%;
-  opacity: 0.58;
-  top: -86%; }
-
-@Keyframes rain-78 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 77%;
-    opacity: 0.58;
+    left: 66%;
+    opacity: 0.57;
     top: -86%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8577,20 +8535,20 @@ header {
     top: 126%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(79) {
-  animation-name: rain-79;
+.rain:nth-of-type(77) {
+  animation-name: rain-77;
   animation-delay: 14s;
-  animation-duration: 6s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 16%;
-  opacity: 0.51;
+  left: 51%;
+  opacity: 0.52;
   top: -64%; }
 
-@Keyframes rain-79 {
+@Keyframes rain-77 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 16%;
-    opacity: 0.51;
+    left: 51%;
+    opacity: 0.52;
     top: -64%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8598,209 +8556,20 @@ header {
     top: 104%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(80) {
-  animation-name: rain-80;
-  animation-delay: 5s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 1%;
-  opacity: 0.4;
-  top: -68%; }
-
-@Keyframes rain-80 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 1%;
-    opacity: 0.4;
-    top: -68%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 108%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(81) {
-  animation-name: rain-81;
-  animation-delay: 6s;
+.rain:nth-of-type(78) {
+  animation-name: rain-78;
+  animation-delay: 3s;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 82%;
-  opacity: 0.43;
-  top: -96%; }
-
-@Keyframes rain-81 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 82%;
-    opacity: 0.43;
-    top: -96%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 136%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(82) {
-  animation-name: rain-82;
-  animation-delay: 6s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 74%;
-  opacity: 0.49;
-  top: -71%; }
-
-@Keyframes rain-82 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 74%;
-    opacity: 0.49;
-    top: -71%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 111%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(83) {
-  animation-name: rain-83;
-  animation-delay: 2s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 44%;
-  opacity: 0.51;
-  top: -56%; }
-
-@Keyframes rain-83 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 44%;
-    opacity: 0.51;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(84) {
-  animation-name: rain-84;
-  animation-delay: 19s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 80%;
-  opacity: 0.4;
-  top: -61%; }
-
-@Keyframes rain-84 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 80%;
-    opacity: 0.4;
-    top: -61%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 101%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(85) {
-  animation-name: rain-85;
-  animation-delay: 7s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 6%;
-  opacity: 0.33;
-  top: -52%; }
-
-@Keyframes rain-85 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 6%;
-    opacity: 0.33;
-    top: -52%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 92%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(86) {
-  animation-name: rain-86;
-  animation-delay: 18s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 24%;
-  opacity: 0.57;
-  top: -76%; }
-
-@Keyframes rain-86 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 24%;
-    opacity: 0.57;
-    top: -76%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 116%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(87) {
-  animation-name: rain-87;
-  animation-delay: 0s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 86%;
-  opacity: 0.5;
-  top: -69%; }
-
-@Keyframes rain-87 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 86%;
-    opacity: 0.5;
-    top: -69%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 109%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(88) {
-  animation-name: rain-88;
-  animation-delay: 14s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 7%;
-  opacity: 0.55;
-  top: -68%; }
-
-@Keyframes rain-88 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 7%;
-    opacity: 0.55;
-    top: -68%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 108%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(89) {
-  animation-name: rain-89;
-  animation-delay: 5s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 41%;
-  opacity: 0.58;
+  left: 53%;
+  opacity: 0.44;
   top: -74%; }
 
-@Keyframes rain-89 {
+@Keyframes rain-78 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 41%;
-    opacity: 0.58;
+    left: 53%;
+    opacity: 0.44;
     top: -74%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8808,104 +8577,20 @@ header {
     top: 114%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(90) {
-  animation-name: rain-90;
-  animation-delay: 11s;
-  animation-duration: 8s;
+.rain:nth-of-type(79) {
+  animation-name: rain-79;
+  animation-delay: 8s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 4%;
-  opacity: 0.46;
-  top: -72%; }
-
-@Keyframes rain-90 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 4%;
-    opacity: 0.46;
-    top: -72%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 112%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(91) {
-  animation-name: rain-91;
-  animation-delay: 7s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 64%;
-  opacity: 0.58;
-  top: -96%; }
-
-@Keyframes rain-91 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 64%;
-    opacity: 0.58;
-    top: -96%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 136%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(92) {
-  animation-name: rain-92;
-  animation-delay: 11s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 49%;
-  opacity: 0.54;
-  top: -51%; }
-
-@Keyframes rain-92 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 49%;
-    opacity: 0.54;
-    top: -51%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 91%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(93) {
-  animation-name: rain-93;
-  animation-delay: 17s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 47%;
-  opacity: 0.38;
-  top: -94%; }
-
-@Keyframes rain-93 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 47%;
-    opacity: 0.38;
-    top: -94%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 134%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(94) {
-  animation-name: rain-94;
-  animation-delay: 17s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 90%;
-  opacity: 0.58;
+  left: 68%;
+  opacity: 0.31;
   top: -80%; }
 
-@Keyframes rain-94 {
+@Keyframes rain-79 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 90%;
-    opacity: 0.58;
+    left: 68%;
+    opacity: 0.31;
     top: -80%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -8913,503 +8598,83 @@ header {
     top: 120%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(95) {
-  animation-name: rain-95;
-  animation-delay: 19s;
+.rain:nth-of-type(80) {
+  animation-name: rain-80;
+  animation-delay: 2s;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 46%;
-  opacity: 0.48;
-  top: -95%; }
+  left: 22%;
+  opacity: 0.31;
+  top: -81%; }
 
-@Keyframes rain-95 {
+@Keyframes rain-80 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 46%;
-    opacity: 0.48;
-    top: -95%; }
+    left: 22%;
+    opacity: 0.31;
+    top: -81%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 135%; } }
+    top: 121%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(96) {
-  animation-name: rain-96;
-  animation-delay: 10s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 29%;
-  opacity: 0.39;
-  top: -78%; }
-
-@Keyframes rain-96 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 29%;
-    opacity: 0.39;
-    top: -78%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 118%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(97) {
-  animation-name: rain-97;
-  animation-delay: 4s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 83%;
-  opacity: 0.44;
-  top: -72%; }
-
-@Keyframes rain-97 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 83%;
-    opacity: 0.44;
-    top: -72%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 112%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(98) {
-  animation-name: rain-98;
+.rain:nth-of-type(81) {
+  animation-name: rain-81;
   animation-delay: 3s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 11%;
-  opacity: 0.32;
-  top: -57%; }
-
-@Keyframes rain-98 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 11%;
-    opacity: 0.32;
-    top: -57%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 97%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(99) {
-  animation-name: rain-99;
-  animation-delay: 1s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 59%;
-  opacity: 0.56;
-  top: -96%; }
-
-@Keyframes rain-99 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 59%;
-    opacity: 0.56;
-    top: -96%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 136%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(100) {
-  animation-name: rain-100;
-  animation-delay: 1s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 2%;
-  opacity: 0.55;
-  top: -84%; }
-
-@Keyframes rain-100 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 2%;
-    opacity: 0.55;
-    top: -84%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 124%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(101) {
-  animation-name: rain-101;
-  animation-delay: 12s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 89%;
-  opacity: 0.5;
-  top: -77%; }
-
-@Keyframes rain-101 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 89%;
-    opacity: 0.5;
-    top: -77%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 117%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(102) {
-  animation-name: rain-102;
-  animation-delay: 9s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 59%;
-  opacity: 0.6;
-  top: -83%; }
-
-@Keyframes rain-102 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 59%;
-    opacity: 0.6;
-    top: -83%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 123%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(103) {
-  animation-name: rain-103;
-  animation-delay: 13s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 27%;
-  opacity: 0.33;
-  top: -56%; }
-
-@Keyframes rain-103 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 27%;
-    opacity: 0.33;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(104) {
-  animation-name: rain-104;
-  animation-delay: 3s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 60%;
-  opacity: 0.54;
-  top: -85%; }
-
-@Keyframes rain-104 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 60%;
-    opacity: 0.54;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(105) {
-  animation-name: rain-105;
-  animation-delay: 16s;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 80%;
-  opacity: 0.4;
-  top: -84%; }
+  left: 70%;
+  opacity: 0.34;
+  top: -74%; }
 
-@Keyframes rain-105 {
+@Keyframes rain-81 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 80%;
-    opacity: 0.4;
-    top: -84%; }
+    left: 70%;
+    opacity: 0.34;
+    top: -74%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 124%; } }
+    top: 114%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(106) {
-  animation-name: rain-106;
+.rain:nth-of-type(82) {
+  animation-name: rain-82;
   animation-delay: 15s;
   animation-duration: 7s;
   animation-iteration-count: infinite;
-  left: 43%;
-  opacity: 0.58;
-  top: -56%; }
+  left: 45%;
+  opacity: 0.35;
+  top: -84%; }
 
-@Keyframes rain-106 {
+@Keyframes rain-82 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 43%;
-    opacity: 0.58;
-    top: -56%; }
+    left: 45%;
+    opacity: 0.35;
+    top: -84%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 96%; } }
+    top: 124%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(107) {
-  animation-name: rain-107;
-  animation-delay: 4s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 66%;
-  opacity: 0.46;
-  top: -55%; }
-
-@Keyframes rain-107 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 66%;
-    opacity: 0.46;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(108) {
-  animation-name: rain-108;
-  animation-delay: 7s;
-  animation-duration: 8s;
+.rain:nth-of-type(83) {
+  animation-name: rain-83;
+  animation-delay: 9s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   left: 71%;
-  opacity: 0.44;
-  top: -59%; }
+  opacity: 0.49;
+  top: -79%; }
 
-@Keyframes rain-108 {
+@Keyframes rain-83 {
   /* line 62, sass/_front-section.scss */
   0% {
     left: 71%;
-    opacity: 0.44;
-    top: -59%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 99%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(109) {
-  animation-name: rain-109;
-  animation-delay: 11s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 32%;
-  opacity: 0.59;
-  top: -52%; }
-
-@Keyframes rain-109 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 32%;
-    opacity: 0.59;
-    top: -52%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 92%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(110) {
-  animation-name: rain-110;
-  animation-delay: 11s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 50%;
-  opacity: 0.54;
-  top: -56%; }
-
-@Keyframes rain-110 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 50%;
-    opacity: 0.54;
-    top: -56%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 96%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(111) {
-  animation-name: rain-111;
-  animation-delay: 3s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 15%;
-  opacity: 0.54;
-  top: -66%; }
-
-@Keyframes rain-111 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 15%;
-    opacity: 0.54;
-    top: -66%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 106%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(112) {
-  animation-name: rain-112;
-  animation-delay: 11s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 1%;
-  opacity: 0.58;
-  top: -53%; }
-
-@Keyframes rain-112 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 1%;
-    opacity: 0.58;
-    top: -53%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 93%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(113) {
-  animation-name: rain-113;
-  animation-delay: 4s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 33%;
-  opacity: 0.58;
-  top: -69%; }
-
-@Keyframes rain-113 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 33%;
-    opacity: 0.58;
-    top: -69%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 109%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(114) {
-  animation-name: rain-114;
-  animation-delay: 16s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 77%;
-  opacity: 0.56;
-  top: -65%; }
-
-@Keyframes rain-114 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 77%;
-    opacity: 0.56;
-    top: -65%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 105%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(115) {
-  animation-name: rain-115;
-  animation-delay: 4s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 15%;
-  opacity: 0.58;
-  top: -85%; }
-
-@Keyframes rain-115 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 15%;
-    opacity: 0.58;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(116) {
-  animation-name: rain-116;
-  animation-delay: 4s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 93%;
-  opacity: 0.44;
-  top: -70%; }
-
-@Keyframes rain-116 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 93%;
-    opacity: 0.44;
-    top: -70%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 110%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(117) {
-  animation-name: rain-117;
-  animation-delay: 7s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 78%;
-  opacity: 0.49;
-  top: -71%; }
-
-@Keyframes rain-117 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 78%;
     opacity: 0.49;
-    top: -71%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 111%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(118) {
-  animation-name: rain-118;
-  animation-delay: 14s;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  left: 36%;
-  opacity: 0.41;
-  top: -79%; }
-
-@Keyframes rain-118 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 36%;
-    opacity: 0.41;
     top: -79%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -9417,20 +8682,20 @@ header {
     top: 119%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(119) {
-  animation-name: rain-119;
-  animation-delay: 19s;
-  animation-duration: 5s;
+.rain:nth-of-type(84) {
+  animation-name: rain-84;
+  animation-delay: 3s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 15%;
-  opacity: 0.48;
+  left: 76%;
+  opacity: 0.4;
   top: -92%; }
 
-@Keyframes rain-119 {
+@Keyframes rain-84 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 15%;
-    opacity: 0.48;
+    left: 76%;
+    opacity: 0.4;
     top: -92%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -9438,272 +8703,20 @@ header {
     top: 132%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(120) {
-  animation-name: rain-120;
+.rain:nth-of-type(85) {
+  animation-name: rain-85;
   animation-delay: 15s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 2%;
-  opacity: 0.38;
-  top: -78%; }
-
-@Keyframes rain-120 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 2%;
-    opacity: 0.38;
-    top: -78%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 118%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(121) {
-  animation-name: rain-121;
-  animation-delay: 19s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 54%;
-  opacity: 0.6;
-  top: -68%; }
-
-@Keyframes rain-121 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 54%;
-    opacity: 0.6;
-    top: -68%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 108%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(122) {
-  animation-name: rain-122;
-  animation-delay: 16s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 98%;
-  opacity: 0.42;
-  top: -89%; }
-
-@Keyframes rain-122 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 98%;
-    opacity: 0.42;
-    top: -89%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 129%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(123) {
-  animation-name: rain-123;
-  animation-delay: 14s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 71%;
-  opacity: 0.44;
-  top: -83%; }
-
-@Keyframes rain-123 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 71%;
-    opacity: 0.44;
-    top: -83%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 123%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(124) {
-  animation-name: rain-124;
-  animation-delay: 13s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 88%;
-  opacity: 0.38;
-  top: -52%; }
-
-@Keyframes rain-124 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 88%;
-    opacity: 0.38;
-    top: -52%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 92%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(125) {
-  animation-name: rain-125;
-  animation-delay: 2s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 34%;
-  opacity: 0.54;
-  top: -76%; }
-
-@Keyframes rain-125 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 34%;
-    opacity: 0.54;
-    top: -76%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 116%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(126) {
-  animation-name: rain-126;
-  animation-delay: 5s;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 31%;
-  opacity: 0.37;
-  top: -65%; }
-
-@Keyframes rain-126 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 31%;
-    opacity: 0.37;
-    top: -65%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 105%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(127) {
-  animation-name: rain-127;
-  animation-delay: 0s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 62%;
+  left: 46%;
   opacity: 0.41;
-  top: -87%; }
-
-@Keyframes rain-127 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 62%;
-    opacity: 0.41;
-    top: -87%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 127%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(128) {
-  animation-name: rain-128;
-  animation-delay: 1s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 3%;
-  opacity: 0.47;
-  top: -54%; }
-
-@Keyframes rain-128 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 3%;
-    opacity: 0.47;
-    top: -54%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 94%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(129) {
-  animation-name: rain-129;
-  animation-delay: 17s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 52%;
-  opacity: 0.47;
-  top: -85%; }
-
-@Keyframes rain-129 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 52%;
-    opacity: 0.47;
-    top: -85%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 125%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(130) {
-  animation-name: rain-130;
-  animation-delay: 18s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 41%;
-  opacity: 0.42;
-  top: -91%; }
-
-@Keyframes rain-130 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 41%;
-    opacity: 0.42;
-    top: -91%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 131%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(131) {
-  animation-name: rain-131;
-  animation-delay: 12s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 81%;
-  opacity: 0.35;
-  top: -73%; }
-
-@Keyframes rain-131 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 81%;
-    opacity: 0.35;
-    top: -73%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 113%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(132) {
-  animation-name: rain-132;
-  animation-delay: 17s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 72%;
-  opacity: 0.37;
   top: -94%; }
 
-@Keyframes rain-132 {
+@Keyframes rain-85 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 72%;
-    opacity: 0.37;
+    left: 46%;
+    opacity: 0.41;
     top: -94%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -9711,103 +8724,61 @@ header {
     top: 134%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(133) {
-  animation-name: rain-133;
-  animation-delay: 2s;
-  animation-duration: 8s;
+.rain:nth-of-type(86) {
+  animation-name: rain-86;
+  animation-delay: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 7%;
-  opacity: 0.46;
-  top: -69%; }
+  left: 3%;
+  opacity: 0.41;
+  top: -97%; }
 
-@Keyframes rain-133 {
+@Keyframes rain-86 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 7%;
-    opacity: 0.46;
-    top: -69%; }
+    left: 3%;
+    opacity: 0.41;
+    top: -97%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 109%; } }
+    top: 137%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(134) {
-  animation-name: rain-134;
-  animation-delay: 1s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 83%;
-  opacity: 0.32;
-  top: -55%; }
-
-@Keyframes rain-134 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 83%;
-    opacity: 0.32;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(135) {
-  animation-name: rain-135;
-  animation-delay: 18s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 22%;
-  opacity: 0.59;
-  top: -55%; }
-
-@Keyframes rain-135 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 22%;
-    opacity: 0.59;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(136) {
-  animation-name: rain-136;
-  animation-delay: 18s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  left: 74%;
-  opacity: 0.36;
-  top: -96%; }
-
-@Keyframes rain-136 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 74%;
-    opacity: 0.36;
-    top: -96%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 136%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(137) {
-  animation-name: rain-137;
-  animation-delay: 10s;
+.rain:nth-of-type(87) {
+  animation-name: rain-87;
+  animation-delay: 6s;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  left: 48%;
+  left: 89%;
+  opacity: 0.52;
+  top: -99%; }
+
+@Keyframes rain-87 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 89%;
+    opacity: 0.52;
+    top: -99%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 139%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(88) {
+  animation-name: rain-88;
+  animation-delay: 11s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 41%;
   opacity: 0.35;
   top: -81%; }
 
-@Keyframes rain-137 {
+@Keyframes rain-88 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 48%;
+    left: 41%;
     opacity: 0.35;
     top: -81%; }
   /* line 67, sass/_front-section.scss */
@@ -9816,62 +8787,188 @@ header {
     top: 121%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(138) {
-  animation-name: rain-138;
-  animation-delay: 14s;
+.rain:nth-of-type(89) {
+  animation-name: rain-89;
+  animation-delay: 0s;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  left: 53%;
-  opacity: 0.32;
-  top: -68%; }
+  left: 33%;
+  opacity: 0.42;
+  top: -82%; }
 
-@Keyframes rain-138 {
+@Keyframes rain-89 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 53%;
-    opacity: 0.32;
-    top: -68%; }
+    left: 33%;
+    opacity: 0.42;
+    top: -82%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 108%; } }
+    top: 122%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(139) {
-  animation-name: rain-139;
-  animation-delay: 6s;
-  animation-duration: 10s;
+.rain:nth-of-type(90) {
+  animation-name: rain-90;
+  animation-delay: 0s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  left: 24%;
-  opacity: 0.57;
-  top: -61%; }
+  left: 99%;
+  opacity: 0.53;
+  top: -66%; }
 
-@Keyframes rain-139 {
+@Keyframes rain-90 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 24%;
-    opacity: 0.57;
-    top: -61%; }
+    left: 99%;
+    opacity: 0.53;
+    top: -66%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 101%; } }
+    top: 106%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(140) {
-  animation-name: rain-140;
-  animation-delay: 14s;
+.rain:nth-of-type(91) {
+  animation-name: rain-91;
+  animation-delay: 7s;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 57%;
-  opacity: 0.42;
-  top: -98%; }
+  left: 89%;
+  opacity: 0.56;
+  top: -74%; }
 
-@Keyframes rain-140 {
+@Keyframes rain-91 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 57%;
-    opacity: 0.42;
+    left: 89%;
+    opacity: 0.56;
+    top: -74%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 114%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(92) {
+  animation-name: rain-92;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 51%;
+  opacity: 0.38;
+  top: -100%; }
+
+@Keyframes rain-92 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 51%;
+    opacity: 0.38;
+    top: -100%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 140%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(93) {
+  animation-name: rain-93;
+  animation-delay: 8s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 54%;
+  opacity: 0.49;
+  top: -53%; }
+
+@Keyframes rain-93 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 54%;
+    opacity: 0.49;
+    top: -53%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 93%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(94) {
+  animation-name: rain-94;
+  animation-delay: 9s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 95%;
+  opacity: 0.44;
+  top: -81%; }
+
+@Keyframes rain-94 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 95%;
+    opacity: 0.44;
+    top: -81%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 121%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(95) {
+  animation-name: rain-95;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.6;
+  top: -76%; }
+
+@Keyframes rain-95 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 7%;
+    opacity: 0.6;
+    top: -76%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 116%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(96) {
+  animation-name: rain-96;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 0.41;
+  top: -76%; }
+
+@Keyframes rain-96 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 52%;
+    opacity: 0.41;
+    top: -76%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 116%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(97) {
+  animation-name: rain-97;
+  animation-delay: 18s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 66%;
+  opacity: 0.58;
+  top: -98%; }
+
+@Keyframes rain-97 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 66%;
+    opacity: 0.58;
     top: -98%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -9879,146 +8976,20 @@ header {
     top: 138%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(141) {
-  animation-name: rain-141;
-  animation-delay: 19s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 93%;
-  opacity: 0.43;
-  top: -77%; }
-
-@Keyframes rain-141 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 93%;
-    opacity: 0.43;
-    top: -77%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 117%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(142) {
-  animation-name: rain-142;
-  animation-delay: 10s;
-  animation-duration: 9s;
-  animation-iteration-count: infinite;
-  left: 53%;
-  opacity: 0.52;
-  top: -72%; }
-
-@Keyframes rain-142 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 53%;
-    opacity: 0.52;
-    top: -72%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 112%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(143) {
-  animation-name: rain-143;
-  animation-delay: 19s;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  left: 91%;
-  opacity: 0.59;
-  top: -70%; }
-
-@Keyframes rain-143 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 91%;
-    opacity: 0.59;
-    top: -70%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 110%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(144) {
-  animation-name: rain-144;
-  animation-delay: 8s;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  left: 8%;
-  opacity: 0.54;
-  top: -73%; }
-
-@Keyframes rain-144 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 8%;
-    opacity: 0.54;
-    top: -73%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 113%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(145) {
-  animation-name: rain-145;
-  animation-delay: 18s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 89%;
-  opacity: 0.4;
-  top: -55%; }
-
-@Keyframes rain-145 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 89%;
-    opacity: 0.4;
-    top: -55%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 95%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(146) {
-  animation-name: rain-146;
-  animation-delay: 8s;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  left: 45%;
-  opacity: 0.45;
-  top: -94%; }
-
-@Keyframes rain-146 {
-  /* line 62, sass/_front-section.scss */
-  0% {
-    left: 45%;
-    opacity: 0.45;
-    top: -94%; }
-  /* line 67, sass/_front-section.scss */
-  100% {
-    opacity: 0;
-    top: 134%; } }
-
-/* line 51, sass/_front-section.scss */
-.rain:nth-of-type(147) {
-  animation-name: rain-147;
-  animation-delay: 11s;
+.rain:nth-of-type(98) {
+  animation-name: rain-98;
+  animation-delay: 1s;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 92%;
-  opacity: 0.44;
+  left: 39%;
+  opacity: 0.36;
   top: -59%; }
 
-@Keyframes rain-147 {
+@Keyframes rain-98 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 92%;
-    opacity: 0.44;
+    left: 39%;
+    opacity: 0.36;
     top: -59%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -10026,62 +8997,1091 @@ header {
     top: 99%; } }
 
 /* line 51, sass/_front-section.scss */
-.rain:nth-of-type(148) {
-  animation-name: rain-148;
+.rain:nth-of-type(99) {
+  animation-name: rain-99;
+  animation-delay: 4s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 57%;
+  opacity: 0.53;
+  top: -61%; }
+
+@Keyframes rain-99 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 57%;
+    opacity: 0.53;
+    top: -61%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 101%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(100) {
+  animation-name: rain-100;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.52;
+  top: -99%; }
+
+@Keyframes rain-100 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 45%;
+    opacity: 0.52;
+    top: -99%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 139%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(101) {
+  animation-name: rain-101;
+  animation-delay: 18s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 90%;
+  opacity: 0.37;
+  top: -93%; }
+
+@Keyframes rain-101 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 90%;
+    opacity: 0.37;
+    top: -93%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 133%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(102) {
+  animation-name: rain-102;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 62%;
+  opacity: 0.37;
+  top: -53%; }
+
+@Keyframes rain-102 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 62%;
+    opacity: 0.37;
+    top: -53%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 93%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(103) {
+  animation-name: rain-103;
+  animation-delay: 18s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 48%;
+  opacity: 0.46;
+  top: -96%; }
+
+@Keyframes rain-103 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 48%;
+    opacity: 0.46;
+    top: -96%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 136%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(104) {
+  animation-name: rain-104;
+  animation-delay: 11s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 15%;
+  opacity: 0.57;
+  top: -66%; }
+
+@Keyframes rain-104 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 15%;
+    opacity: 0.57;
+    top: -66%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 106%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(105) {
+  animation-name: rain-105;
+  animation-delay: 12s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 9%;
+  opacity: 0.6;
+  top: -71%; }
+
+@Keyframes rain-105 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 9%;
+    opacity: 0.6;
+    top: -71%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 111%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(106) {
+  animation-name: rain-106;
+  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 71%;
+  opacity: 0.46;
+  top: -79%; }
+
+@Keyframes rain-106 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 71%;
+    opacity: 0.46;
+    top: -79%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 119%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(107) {
+  animation-name: rain-107;
+  animation-delay: 11s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  opacity: 0.56;
+  top: -89%; }
+
+@Keyframes rain-107 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 75%;
+    opacity: 0.56;
+    top: -89%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 129%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(108) {
+  animation-name: rain-108;
+  animation-delay: 6s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 8%;
+  opacity: 0.58;
+  top: -56%; }
+
+@Keyframes rain-108 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 8%;
+    opacity: 0.58;
+    top: -56%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 96%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(109) {
+  animation-name: rain-109;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 55%;
+  opacity: 0.47;
+  top: -68%; }
+
+@Keyframes rain-109 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 55%;
+    opacity: 0.47;
+    top: -68%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 108%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(110) {
+  animation-name: rain-110;
+  animation-delay: 11s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 89%;
+  opacity: 0.54;
+  top: -96%; }
+
+@Keyframes rain-110 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 89%;
+    opacity: 0.54;
+    top: -96%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 136%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(111) {
+  animation-name: rain-111;
+  animation-delay: 19s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 22%;
+  opacity: 0.52;
+  top: -83%; }
+
+@Keyframes rain-111 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 22%;
+    opacity: 0.52;
+    top: -83%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 123%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(112) {
+  animation-name: rain-112;
+  animation-delay: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 47%;
+  opacity: 0.54;
+  top: -59%; }
+
+@Keyframes rain-112 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 47%;
+    opacity: 0.54;
+    top: -59%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 99%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(113) {
+  animation-name: rain-113;
+  animation-delay: 15s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 63%;
+  opacity: 0.41;
+  top: -55%; }
+
+@Keyframes rain-113 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 63%;
+    opacity: 0.41;
+    top: -55%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 95%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(114) {
+  animation-name: rain-114;
+  animation-delay: 16s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 94%;
+  opacity: 0.55;
+  top: -80%; }
+
+@Keyframes rain-114 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 94%;
+    opacity: 0.55;
+    top: -80%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 120%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(115) {
+  animation-name: rain-115;
+  animation-delay: 7s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 0.5;
+  top: -69%; }
+
+@Keyframes rain-115 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 52%;
+    opacity: 0.5;
+    top: -69%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 109%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(116) {
+  animation-name: rain-116;
+  animation-delay: 13s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 90%;
+  opacity: 0.41;
+  top: -82%; }
+
+@Keyframes rain-116 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 90%;
+    opacity: 0.41;
+    top: -82%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 122%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(117) {
+  animation-name: rain-117;
+  animation-delay: 4s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 2%;
+  opacity: 0.52;
+  top: -64%; }
+
+@Keyframes rain-117 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 2%;
+    opacity: 0.52;
+    top: -64%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 104%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(118) {
+  animation-name: rain-118;
+  animation-delay: 8s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.56;
+  top: -84%; }
+
+@Keyframes rain-118 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 64%;
+    opacity: 0.56;
+    top: -84%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 124%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(119) {
+  animation-name: rain-119;
+  animation-delay: 15s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 49%;
+  opacity: 0.43;
+  top: -95%; }
+
+@Keyframes rain-119 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 49%;
+    opacity: 0.43;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(120) {
+  animation-name: rain-120;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 47%;
+  opacity: 0.43;
+  top: -80%; }
+
+@Keyframes rain-120 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 47%;
+    opacity: 0.43;
+    top: -80%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 120%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(121) {
+  animation-name: rain-121;
+  animation-delay: 15s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 21%;
+  opacity: 0.45;
+  top: -53%; }
+
+@Keyframes rain-121 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 21%;
+    opacity: 0.45;
+    top: -53%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 93%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(122) {
+  animation-name: rain-122;
   animation-delay: 19s;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  left: 61%;
+  left: 63%;
+  opacity: 0.44;
+  top: -74%; }
+
+@Keyframes rain-122 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 63%;
+    opacity: 0.44;
+    top: -74%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 114%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(123) {
+  animation-name: rain-123;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 71%;
+  opacity: 0.42;
+  top: -71%; }
+
+@Keyframes rain-123 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 71%;
+    opacity: 0.42;
+    top: -71%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 111%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(124) {
+  animation-name: rain-124;
+  animation-delay: 16s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 88%;
+  opacity: 0.58;
+  top: -65%; }
+
+@Keyframes rain-124 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 88%;
+    opacity: 0.58;
+    top: -65%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 105%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(125) {
+  animation-name: rain-125;
+  animation-delay: 4s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 84%;
+  opacity: 0.48;
+  top: -66%; }
+
+@Keyframes rain-125 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 84%;
+    opacity: 0.48;
+    top: -66%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 106%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(126) {
+  animation-name: rain-126;
+  animation-delay: 5s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 2%;
+  opacity: 0.53;
+  top: -67%; }
+
+@Keyframes rain-126 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 2%;
+    opacity: 0.53;
+    top: -67%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 107%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(127) {
+  animation-name: rain-127;
+  animation-delay: 11s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 83%;
+  opacity: 0.32;
+  top: -85%; }
+
+@Keyframes rain-127 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 83%;
+    opacity: 0.32;
+    top: -85%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 125%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(128) {
+  animation-name: rain-128;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 99%;
+  opacity: 0.59;
+  top: -99%; }
+
+@Keyframes rain-128 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 99%;
+    opacity: 0.59;
+    top: -99%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 139%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(129) {
+  animation-name: rain-129;
+  animation-delay: 11s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.49;
+  top: -95%; }
+
+@Keyframes rain-129 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 7%;
+    opacity: 0.49;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(130) {
+  animation-name: rain-130;
+  animation-delay: 4s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 26%;
+  opacity: 0.44;
+  top: -92%; }
+
+@Keyframes rain-130 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 26%;
+    opacity: 0.44;
+    top: -92%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 132%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(131) {
+  animation-name: rain-131;
+  animation-delay: 5s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 78%;
+  opacity: 0.48;
+  top: -80%; }
+
+@Keyframes rain-131 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 78%;
+    opacity: 0.48;
+    top: -80%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 120%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(132) {
+  animation-name: rain-132;
+  animation-delay: 14s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 84%;
+  opacity: 0.55;
+  top: -95%; }
+
+@Keyframes rain-132 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 84%;
+    opacity: 0.55;
+    top: -95%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 135%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(133) {
+  animation-name: rain-133;
+  animation-delay: 4s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 21%;
+  opacity: 0.5;
+  top: -71%; }
+
+@Keyframes rain-133 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 21%;
+    opacity: 0.5;
+    top: -71%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 111%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(134) {
+  animation-name: rain-134;
+  animation-delay: 14s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 53%;
+  opacity: 0.42;
+  top: -79%; }
+
+@Keyframes rain-134 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 53%;
+    opacity: 0.42;
+    top: -79%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 119%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(135) {
+  animation-name: rain-135;
+  animation-delay: 7s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.57;
+  top: -91%; }
+
+@Keyframes rain-135 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 64%;
+    opacity: 0.57;
+    top: -91%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 131%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(136) {
+  animation-name: rain-136;
+  animation-delay: 10s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 91%;
+  opacity: 0.38;
+  top: -74%; }
+
+@Keyframes rain-136 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 91%;
+    opacity: 0.38;
+    top: -74%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 114%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(137) {
+  animation-name: rain-137;
+  animation-delay: 4s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 96%;
+  opacity: 0.33;
+  top: -75%; }
+
+@Keyframes rain-137 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 96%;
+    opacity: 0.33;
+    top: -75%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 115%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(138) {
+  animation-name: rain-138;
+  animation-delay: 10s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 95%;
+  opacity: 0.52;
+  top: -56%; }
+
+@Keyframes rain-138 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 95%;
+    opacity: 0.52;
+    top: -56%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 96%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(139) {
+  animation-name: rain-139;
+  animation-delay: 4s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 36%;
+  opacity: 0.43;
+  top: -56%; }
+
+@Keyframes rain-139 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 36%;
+    opacity: 0.43;
+    top: -56%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 96%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(140) {
+  animation-name: rain-140;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.6;
+  top: -83%; }
+
+@Keyframes rain-140 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 64%;
+    opacity: 0.6;
+    top: -83%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 123%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(141) {
+  animation-name: rain-141;
+  animation-delay: 5s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 81%;
+  opacity: 0.53;
+  top: -80%; }
+
+@Keyframes rain-141 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 81%;
+    opacity: 0.53;
+    top: -80%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 120%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(142) {
+  animation-name: rain-142;
+  animation-delay: 9s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 52%;
   opacity: 0.4;
-  top: -86%; }
+  top: -67%; }
+
+@Keyframes rain-142 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 52%;
+    opacity: 0.4;
+    top: -67%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 107%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(143) {
+  animation-name: rain-143;
+  animation-delay: 4s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 91%;
+  opacity: 0.53;
+  top: -73%; }
+
+@Keyframes rain-143 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 91%;
+    opacity: 0.53;
+    top: -73%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 113%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(144) {
+  animation-name: rain-144;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 58%;
+  opacity: 0.52;
+  top: -68%; }
+
+@Keyframes rain-144 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 58%;
+    opacity: 0.52;
+    top: -68%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 108%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(145) {
+  animation-name: rain-145;
+  animation-delay: 8s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 56%;
+  opacity: 0.37;
+  top: -64%; }
+
+@Keyframes rain-145 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 56%;
+    opacity: 0.37;
+    top: -64%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 104%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(146) {
+  animation-name: rain-146;
+  animation-delay: 11s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 74%;
+  opacity: 0.43;
+  top: -55%; }
+
+@Keyframes rain-146 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 74%;
+    opacity: 0.43;
+    top: -55%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 95%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(147) {
+  animation-name: rain-147;
+  animation-delay: 14s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.58;
+  top: -55%; }
+
+@Keyframes rain-147 {
+  /* line 62, sass/_front-section.scss */
+  0% {
+    left: 45%;
+    opacity: 0.58;
+    top: -55%; }
+  /* line 67, sass/_front-section.scss */
+  100% {
+    opacity: 0;
+    top: 95%; } }
+
+/* line 51, sass/_front-section.scss */
+.rain:nth-of-type(148) {
+  animation-name: rain-148;
+  animation-delay: 5s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 81%;
+  opacity: 0.43;
+  top: -89%; }
 
 @Keyframes rain-148 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 61%;
-    opacity: 0.4;
-    top: -86%; }
+    left: 81%;
+    opacity: 0.43;
+    top: -89%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 126%; } }
+    top: 129%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(149) {
   animation-name: rain-149;
-  animation-delay: 7s;
-  animation-duration: 10s;
+  animation-delay: 11s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 33%;
+  left: 61%;
   opacity: 0.31;
-  top: -57%; }
+  top: -95%; }
 
 @Keyframes rain-149 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 33%;
+    left: 61%;
     opacity: 0.31;
-    top: -57%; }
+    top: -95%; }
   /* line 67, sass/_front-section.scss */
   100% {
     opacity: 0;
-    top: 97%; } }
+    top: 135%; } }
 
 /* line 51, sass/_front-section.scss */
 .rain:nth-of-type(150) {
   animation-name: rain-150;
-  animation-delay: 2s;
+  animation-delay: 7s;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  left: 37%;
-  opacity: 0.43;
+  left: 4%;
+  opacity: 0.57;
   top: -61%; }
 
 @Keyframes rain-150 {
   /* line 62, sass/_front-section.scss */
   0% {
-    left: 37%;
-    opacity: 0.43;
+    left: 4%;
+    opacity: 0.57;
     top: -61%; }
   /* line 67, sass/_front-section.scss */
   100% {
@@ -10348,15 +10348,16 @@ header {
     /* line 35, sass/_projects.scss */
     .card {
       width: 100%;
-      height: 100%; } }
+      height: 100%;
+      max-width: none; } }
 
-/* line 93, sass/_projects.scss */
+/* line 94, sass/_projects.scss */
 .card *,
 .card *:before,
 .card *:after {
   transition: all 0.35s ease; }
 
-/* line 98, sass/_projects.scss */
+/* line 99, sass/_projects.scss */
 .card:before {
   position: absolute;
   top: 3%;
@@ -10368,29 +10369,29 @@ header {
   opacity: 0;
   transition: all 0.35s ease; }
 
-/* line 111, sass/_projects.scss */
+/* line 112, sass/_projects.scss */
 .card a i:hover {
   background-color: #e76710;
   color: #e5e5e5;
   cursor: pointer; }
 
-/* line 116, sass/_projects.scss */
+/* line 117, sass/_projects.scss */
 .card:hover:before,
 .card.hover:before {
   opacity: 0.5; }
 
-/* line 120, sass/_projects.scss */
+/* line 121, sass/_projects.scss */
 .card:hover a,
 .card.hover a {
   opacity: 1;
   transform: scale(1); }
 
-/* line 125, sass/_projects.scss */
+/* line 126, sass/_projects.scss */
 .card:hover a:nth-child(2),
 .card.hover a:nth-child(2) {
   transition-delay: 0.15s; }
 
-/* line 129, sass/_projects.scss */
+/* line 130, sass/_projects.scss */
 .card:hover a:nth-child(3),
 .card.hover a:nth-child(3) {
   transition-delay: 0.3s; }
