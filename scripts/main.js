@@ -114,6 +114,12 @@ function runAnimations(){
 			classToRemove: 'hidden',
 			offset: 200
 		})
+	$('.contact p, .contact i').addClass("hidden animated").viewportChecker({
+			classToAdd: 'visible fadeIn',
+			classToRemove: 'hidden',
+			offset: 200
+		})
+	
 		
 	};
 
