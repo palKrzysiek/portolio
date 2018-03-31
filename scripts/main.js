@@ -6,7 +6,8 @@ $(document).ready(function(){
 	scrollTo();
 	if(window.innerWidth>900){
 		runAnimations();
-	}
+	};
+	startRain();
 });
 
 // dodawanie hover do navi
@@ -115,6 +116,15 @@ function runAnimations(){
 		})
 		
 	};
+
+
+function startRain(){
+	if(window.innerWidth>=900){
+	$('.rain-container i').addClass('rain');}
+	else {
+		$('.rain-container i:nth-child(2n-1)').addClass('rain');
+	}
+}
 
 
 
