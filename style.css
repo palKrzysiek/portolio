@@ -9367,7 +9367,7 @@ header {
           text-shadow: 0px 0px 3px white; } }
     .my-skills .box .stars {
       border-bottom: 1px solid black;
-      padding: 2% 0; }
+      /*padding: 2% 0; */}
       @media only screen and (min-width: 500px) {
         .my-skills .box .stars {
           border-bottom: none; } }
